@@ -1,0 +1,1634 @@
+2023-02-11 14:01:32.403 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-02-11 14:01:33.114 +03:30 [DBG] Entity Framework Core 7.0.2 initialized 'TicketingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.2' with options: None
+2023-02-11 14:01:33.416 +03:30 [DBG] 'TicketingContext' disposed.
+2023-02-11 14:01:53.874 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-02-11 14:01:54.574 +03:30 [DBG] Entity Framework Core 7.0.2 initialized 'TicketingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.2' with options: None
+2023-02-11 14:01:54.595 +03:30 [DBG] Creating DbConnection.
+2023-02-11 14:01:54.806 +03:30 [DBG] Created DbConnection. (208ms).
+2023-02-11 14:01:54.809 +03:30 [DBG] Migrating using database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:01:54.819 +03:30 [DBG] Opening connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:01:55.372 +03:30 [DBG] An error occurred using the connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:01:55.373 +03:30 [DBG] Opening connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:01:55.377 +03:30 [DBG] An error occurred using the connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:01:55.493 +03:30 [DBG] Creating DbConnection.
+2023-02-11 14:01:55.494 +03:30 [DBG] Created DbConnection. (0ms).
+2023-02-11 14:01:55.494 +03:30 [DBG] Opening connection to database 'master' on server 'ASUS_ROG'.
+2023-02-11 14:01:55.509 +03:30 [DBG] Opened connection to database 'master' on server 'ASUS_ROG'.
+2023-02-11 14:01:55.513 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 14:01:55.520 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (5ms).
+2023-02-11 14:01:55.522 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (10ms).
+2023-02-11 14:01:55.528 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [Ticketing_DB];
+2023-02-11 14:01:56.351 +03:30 [INF] Executed DbCommand (824ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [Ticketing_DB];
+2023-02-11 14:01:56.352 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 14:01:56.352 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 14:01:56.352 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 14:01:56.352 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [Ticketing_DB] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2023-02-11 14:01:56.556 +03:30 [INF] Executed DbCommand (203ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [Ticketing_DB] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2023-02-11 14:01:56.557 +03:30 [DBG] Closing connection to database 'master' on server 'ASUS_ROG'.
+2023-02-11 14:01:56.565 +03:30 [DBG] Closed connection to database 'master' on server 'ASUS_ROG' (4ms).
+2023-02-11 14:01:56.567 +03:30 [DBG] Disposing connection to database 'master' on server 'ASUS_ROG'.
+2023-02-11 14:01:56.568 +03:30 [DBG] Disposed connection to database '' on server '' (0ms).
+2023-02-11 14:01:56.568 +03:30 [DBG] Opening connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:01:56.605 +03:30 [DBG] Opened connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:01:56.605 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 14:01:56.605 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 14:01:56.605 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 14:01:56.605 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-02-11 14:01:56.615 +03:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-02-11 14:01:56.615 +03:30 [DBG] Closing connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:01:56.616 +03:30 [DBG] Closed connection to database 'Ticketing_DB' on server 'ASUS_ROG' (0ms).
+2023-02-11 14:01:56.684 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 14:01:56.684 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 14:01:56.684 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 14:01:56.684 +03:30 [DBG] Opening connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:01:56.687 +03:30 [DBG] Opened connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:01:56.687 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2023-02-11 14:01:56.706 +03:30 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2023-02-11 14:01:56.706 +03:30 [DBG] Closing connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:01:56.706 +03:30 [DBG] Closed connection to database 'Ticketing_DB' on server 'ASUS_ROG' (0ms).
+2023-02-11 14:01:56.707 +03:30 [DBG] Opening connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:01:56.727 +03:30 [DBG] Opened connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:01:56.727 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 14:01:56.727 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 14:01:56.727 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 14:01:56.727 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-02-11 14:01:56.727 +03:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-02-11 14:01:56.727 +03:30 [DBG] Closing connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:01:56.728 +03:30 [DBG] Closed connection to database 'Ticketing_DB' on server 'ASUS_ROG' (0ms).
+2023-02-11 14:01:56.730 +03:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-02-11 14:01:56.730 +03:30 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-02-11 14:01:56.730 +03:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2023-02-11 14:01:56.730 +03:30 [DBG] Opening connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:01:56.734 +03:30 [DBG] Opened connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:01:56.735 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-02-11 14:01:56.750 +03:30 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-02-11 14:01:56.750 +03:30 [DBG] Closing connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:01:56.751 +03:30 [DBG] Closed connection to database 'Ticketing_DB' on server 'ASUS_ROG' (0ms).
+2023-02-11 14:01:56.753 +03:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-02-11 14:01:56.753 +03:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-02-11 14:01:56.753 +03:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-02-11 14:01:56.753 +03:30 [DBG] Opening connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:01:56.757 +03:30 [DBG] Opened connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:01:56.758 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-02-11 14:01:56.760 +03:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-02-11 14:01:56.762 +03:30 [DBG] Closing data reader to 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:01:56.763 +03:30 [DBG] A data reader for 'Ticketing_DB' on server 'ASUS_ROG' is being disposed after spending 1ms reading results.
+2023-02-11 14:01:56.763 +03:30 [DBG] Closing connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:01:56.763 +03:30 [DBG] Closed connection to database 'Ticketing_DB' on server 'ASUS_ROG' (0ms).
+2023-02-11 14:01:56.779 +03:30 [INF] Applying migration '20230211103133_Initial'.
+2023-02-11 14:01:56.849 +03:30 [DBG] Executing 2 update commands as a batch.
+2023-02-11 14:01:56.850 +03:30 [DBG] Executing 2 update commands as a batch.
+2023-02-11 14:01:56.854 +03:30 [DBG] Opening connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:01:56.859 +03:30 [DBG] Opened connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:01:56.860 +03:30 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-02-11 14:01:56.867 +03:30 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-02-11 14:01:56.868 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 14:01:56.868 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 14:01:56.869 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 14:01:56.869 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Admin] (
+    [id] int NOT NULL IDENTITY,
+    [Email] nvarchar(75) NOT NULL,
+    [Password] nvarchar(50) NOT NULL,
+    CONSTRAINT [PK_Admin] PRIMARY KEY ([id])
+);
+2023-02-11 14:01:56.874 +03:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Admin] (
+    [id] int NOT NULL IDENTITY,
+    [Email] nvarchar(75) NOT NULL,
+    [Password] nvarchar(50) NOT NULL,
+    CONSTRAINT [PK_Admin] PRIMARY KEY ([id])
+);
+2023-02-11 14:01:56.874 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 14:01:56.875 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 14:01:56.875 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 14:01:56.875 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [User] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(50) NOT NULL,
+    [Email] nvarchar(75) NOT NULL,
+    [Password] nvarchar(50) NOT NULL,
+    CONSTRAINT [PK_User] PRIMARY KEY ([Id])
+);
+2023-02-11 14:01:56.877 +03:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [User] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(50) NOT NULL,
+    [Email] nvarchar(75) NOT NULL,
+    [Password] nvarchar(50) NOT NULL,
+    CONSTRAINT [PK_User] PRIMARY KEY ([Id])
+);
+2023-02-11 14:01:56.877 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 14:01:56.877 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 14:01:56.877 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 14:01:56.877 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Ticket] (
+    [Id] int NOT NULL IDENTITY,
+    [userId] int NOT NULL,
+    [Title] nvarchar(150) NOT NULL,
+    [DateTime] datetime2 NOT NULL,
+    [IsFinished] bit NOT NULL,
+    CONSTRAINT [PK_Ticket] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Ticket_User_userId] FOREIGN KEY ([userId]) REFERENCES [User] ([Id]) ON DELETE CASCADE
+);
+2023-02-11 14:01:56.883 +03:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Ticket] (
+    [Id] int NOT NULL IDENTITY,
+    [userId] int NOT NULL,
+    [Title] nvarchar(150) NOT NULL,
+    [DateTime] datetime2 NOT NULL,
+    [IsFinished] bit NOT NULL,
+    CONSTRAINT [PK_Ticket] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Ticket_User_userId] FOREIGN KEY ([userId]) REFERENCES [User] ([Id]) ON DELETE CASCADE
+);
+2023-02-11 14:01:56.883 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 14:01:56.883 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 14:01:56.883 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 14:01:56.884 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [TicketQuestion] (
+    [id] int NOT NULL IDENTITY,
+    [ticketId] int NOT NULL,
+    [Body] nvarchar(500) NOT NULL,
+    [DateTime] datetime2 NOT NULL,
+    [IsResponded] bit NOT NULL,
+    CONSTRAINT [PK_TicketQuestion] PRIMARY KEY ([id]),
+    CONSTRAINT [FK_TicketQuestion_Ticket_ticketId] FOREIGN KEY ([ticketId]) REFERENCES [Ticket] ([Id]) ON DELETE CASCADE
+);
+2023-02-11 14:01:56.886 +03:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [TicketQuestion] (
+    [id] int NOT NULL IDENTITY,
+    [ticketId] int NOT NULL,
+    [Body] nvarchar(500) NOT NULL,
+    [DateTime] datetime2 NOT NULL,
+    [IsResponded] bit NOT NULL,
+    CONSTRAINT [PK_TicketQuestion] PRIMARY KEY ([id]),
+    CONSTRAINT [FK_TicketQuestion_Ticket_ticketId] FOREIGN KEY ([ticketId]) REFERENCES [Ticket] ([Id]) ON DELETE CASCADE
+);
+2023-02-11 14:01:56.886 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 14:01:56.886 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 14:01:56.886 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 14:01:56.886 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [TicketAnswer] (
+    [id] int NOT NULL IDENTITY,
+    [adminId] int NOT NULL,
+    [ticketId] int NOT NULL,
+    [questionId] int NOT NULL,
+    [Body] nvarchar(500) NOT NULL,
+    [DateTime] datetime2 NOT NULL,
+    CONSTRAINT [PK_TicketAnswer] PRIMARY KEY ([id]),
+    CONSTRAINT [FK_TicketAnswer_Admin_adminId] FOREIGN KEY ([adminId]) REFERENCES [Admin] ([id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_TicketAnswer_TicketQuestion_questionId] FOREIGN KEY ([questionId]) REFERENCES [TicketQuestion] ([id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_TicketAnswer_Ticket_ticketId] FOREIGN KEY ([ticketId]) REFERENCES [Ticket] ([Id]) ON DELETE CASCADE
+);
+2023-02-11 14:01:56.911 +03:30 [ERR] Failed executing DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [TicketAnswer] (
+    [id] int NOT NULL IDENTITY,
+    [adminId] int NOT NULL,
+    [ticketId] int NOT NULL,
+    [questionId] int NOT NULL,
+    [Body] nvarchar(500) NOT NULL,
+    [DateTime] datetime2 NOT NULL,
+    CONSTRAINT [PK_TicketAnswer] PRIMARY KEY ([id]),
+    CONSTRAINT [FK_TicketAnswer_Admin_adminId] FOREIGN KEY ([adminId]) REFERENCES [Admin] ([id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_TicketAnswer_TicketQuestion_questionId] FOREIGN KEY ([questionId]) REFERENCES [TicketQuestion] ([id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_TicketAnswer_Ticket_ticketId] FOREIGN KEY ([ticketId]) REFERENCES [Ticket] ([Id]) ON DELETE CASCADE
+);
+2023-02-11 14:01:56.912 +03:30 [DBG] Disposing transaction.
+2023-02-11 14:01:56.912 +03:30 [DBG] Closing connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:01:56.912 +03:30 [DBG] Closed connection to database 'Ticketing_DB' on server 'ASUS_ROG' (0ms).
+2023-02-11 14:01:56.914 +03:30 [DBG] 'TicketingContext' disposed.
+2023-02-11 14:01:56.914 +03:30 [DBG] Disposing connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:01:56.914 +03:30 [DBG] Disposed connection to database '' on server '' (0ms).
+2023-02-11 14:02:09.097 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-02-11 14:02:09.773 +03:30 [DBG] Entity Framework Core 7.0.2 initialized 'TicketingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.2' with options: None
+2023-02-11 14:02:09.789 +03:30 [DBG] Creating DbConnection.
+2023-02-11 14:02:09.831 +03:30 [DBG] Created DbConnection. (39ms).
+2023-02-11 14:02:09.834 +03:30 [DBG] Migrating using database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:02:09.839 +03:30 [DBG] Opening connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:02:09.984 +03:30 [DBG] Opened connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:02:09.989 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 14:02:09.995 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (5ms).
+2023-02-11 14:02:09.997 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (10ms).
+2023-02-11 14:02:10.004 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-02-11 14:02:10.025 +03:30 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-02-11 14:02:10.027 +03:30 [DBG] Closing connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:02:10.036 +03:30 [DBG] Closed connection to database 'Ticketing_DB' on server 'ASUS_ROG' (4ms).
+2023-02-11 14:02:10.038 +03:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-02-11 14:02:10.038 +03:30 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-02-11 14:02:10.038 +03:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2023-02-11 14:02:10.039 +03:30 [DBG] Opening connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:02:10.043 +03:30 [DBG] Opened connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:02:10.043 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-02-11 14:02:10.056 +03:30 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-02-11 14:02:10.057 +03:30 [DBG] Closing connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:02:10.057 +03:30 [DBG] Closed connection to database 'Ticketing_DB' on server 'ASUS_ROG' (0ms).
+2023-02-11 14:02:10.059 +03:30 [DBG] Opening connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:02:10.062 +03:30 [DBG] Opened connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:02:10.063 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 14:02:10.063 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 14:02:10.063 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 14:02:10.063 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-02-11 14:02:10.063 +03:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-02-11 14:02:10.063 +03:30 [DBG] Closing connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:02:10.064 +03:30 [DBG] Closed connection to database 'Ticketing_DB' on server 'ASUS_ROG' (0ms).
+2023-02-11 14:02:10.064 +03:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-02-11 14:02:10.064 +03:30 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-02-11 14:02:10.064 +03:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2023-02-11 14:02:10.064 +03:30 [DBG] Opening connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:02:10.067 +03:30 [DBG] Opened connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:02:10.067 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-02-11 14:02:10.068 +03:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-02-11 14:02:10.068 +03:30 [DBG] Closing connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:02:10.068 +03:30 [DBG] Closed connection to database 'Ticketing_DB' on server 'ASUS_ROG' (0ms).
+2023-02-11 14:02:10.088 +03:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-02-11 14:02:10.088 +03:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-02-11 14:02:10.088 +03:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-02-11 14:02:10.088 +03:30 [DBG] Opening connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:02:10.092 +03:30 [DBG] Opened connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:02:10.093 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-02-11 14:02:10.094 +03:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-02-11 14:02:10.096 +03:30 [DBG] Closing data reader to 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:02:10.097 +03:30 [DBG] A data reader for 'Ticketing_DB' on server 'ASUS_ROG' is being disposed after spending 1ms reading results.
+2023-02-11 14:02:10.098 +03:30 [DBG] Closing connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:02:10.098 +03:30 [DBG] Closed connection to database 'Ticketing_DB' on server 'ASUS_ROG' (0ms).
+2023-02-11 14:02:10.116 +03:30 [INF] Applying migration '20230211103133_Initial'.
+2023-02-11 14:02:10.210 +03:30 [DBG] Executing 2 update commands as a batch.
+2023-02-11 14:02:10.211 +03:30 [DBG] Executing 2 update commands as a batch.
+2023-02-11 14:02:10.216 +03:30 [DBG] Opening connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:02:10.220 +03:30 [DBG] Opened connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:02:10.222 +03:30 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-02-11 14:02:10.227 +03:30 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-02-11 14:02:10.228 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 14:02:10.228 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 14:02:10.229 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 14:02:10.229 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Admin] (
+    [id] int NOT NULL IDENTITY,
+    [Email] nvarchar(75) NOT NULL,
+    [Password] nvarchar(50) NOT NULL,
+    CONSTRAINT [PK_Admin] PRIMARY KEY ([id])
+);
+2023-02-11 14:02:10.231 +03:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Admin] (
+    [id] int NOT NULL IDENTITY,
+    [Email] nvarchar(75) NOT NULL,
+    [Password] nvarchar(50) NOT NULL,
+    CONSTRAINT [PK_Admin] PRIMARY KEY ([id])
+);
+2023-02-11 14:02:10.231 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 14:02:10.231 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 14:02:10.231 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 14:02:10.231 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [User] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(50) NOT NULL,
+    [Email] nvarchar(75) NOT NULL,
+    [Password] nvarchar(50) NOT NULL,
+    CONSTRAINT [PK_User] PRIMARY KEY ([Id])
+);
+2023-02-11 14:02:10.232 +03:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [User] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(50) NOT NULL,
+    [Email] nvarchar(75) NOT NULL,
+    [Password] nvarchar(50) NOT NULL,
+    CONSTRAINT [PK_User] PRIMARY KEY ([Id])
+);
+2023-02-11 14:02:10.233 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 14:02:10.233 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 14:02:10.233 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 14:02:10.233 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Ticket] (
+    [Id] int NOT NULL IDENTITY,
+    [userId] int NOT NULL,
+    [Title] nvarchar(150) NOT NULL,
+    [DateTime] datetime2 NOT NULL,
+    [IsFinished] bit NOT NULL,
+    CONSTRAINT [PK_Ticket] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Ticket_User_userId] FOREIGN KEY ([userId]) REFERENCES [User] ([Id]) ON DELETE CASCADE
+);
+2023-02-11 14:02:10.234 +03:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Ticket] (
+    [Id] int NOT NULL IDENTITY,
+    [userId] int NOT NULL,
+    [Title] nvarchar(150) NOT NULL,
+    [DateTime] datetime2 NOT NULL,
+    [IsFinished] bit NOT NULL,
+    CONSTRAINT [PK_Ticket] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Ticket_User_userId] FOREIGN KEY ([userId]) REFERENCES [User] ([Id]) ON DELETE CASCADE
+);
+2023-02-11 14:02:10.234 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 14:02:10.234 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 14:02:10.234 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 14:02:10.235 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [TicketQuestion] (
+    [id] int NOT NULL IDENTITY,
+    [ticketId] int NOT NULL,
+    [Body] nvarchar(500) NOT NULL,
+    [DateTime] datetime2 NOT NULL,
+    [IsResponded] bit NOT NULL,
+    CONSTRAINT [PK_TicketQuestion] PRIMARY KEY ([id]),
+    CONSTRAINT [FK_TicketQuestion_Ticket_ticketId] FOREIGN KEY ([ticketId]) REFERENCES [Ticket] ([Id]) ON DELETE CASCADE
+);
+2023-02-11 14:02:10.236 +03:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [TicketQuestion] (
+    [id] int NOT NULL IDENTITY,
+    [ticketId] int NOT NULL,
+    [Body] nvarchar(500) NOT NULL,
+    [DateTime] datetime2 NOT NULL,
+    [IsResponded] bit NOT NULL,
+    CONSTRAINT [PK_TicketQuestion] PRIMARY KEY ([id]),
+    CONSTRAINT [FK_TicketQuestion_Ticket_ticketId] FOREIGN KEY ([ticketId]) REFERENCES [Ticket] ([Id]) ON DELETE CASCADE
+);
+2023-02-11 14:02:10.236 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 14:02:10.236 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 14:02:10.236 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 14:02:10.236 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [TicketAnswer] (
+    [id] int NOT NULL IDENTITY,
+    [adminId] int NOT NULL,
+    [ticketId] int NOT NULL,
+    [questionId] int NOT NULL,
+    [Body] nvarchar(500) NOT NULL,
+    [DateTime] datetime2 NOT NULL,
+    CONSTRAINT [PK_TicketAnswer] PRIMARY KEY ([id]),
+    CONSTRAINT [FK_TicketAnswer_Admin_adminId] FOREIGN KEY ([adminId]) REFERENCES [Admin] ([id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_TicketAnswer_TicketQuestion_questionId] FOREIGN KEY ([questionId]) REFERENCES [TicketQuestion] ([id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_TicketAnswer_Ticket_ticketId] FOREIGN KEY ([ticketId]) REFERENCES [Ticket] ([Id]) ON DELETE CASCADE
+);
+2023-02-11 14:02:10.244 +03:30 [ERR] Failed executing DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [TicketAnswer] (
+    [id] int NOT NULL IDENTITY,
+    [adminId] int NOT NULL,
+    [ticketId] int NOT NULL,
+    [questionId] int NOT NULL,
+    [Body] nvarchar(500) NOT NULL,
+    [DateTime] datetime2 NOT NULL,
+    CONSTRAINT [PK_TicketAnswer] PRIMARY KEY ([id]),
+    CONSTRAINT [FK_TicketAnswer_Admin_adminId] FOREIGN KEY ([adminId]) REFERENCES [Admin] ([id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_TicketAnswer_TicketQuestion_questionId] FOREIGN KEY ([questionId]) REFERENCES [TicketQuestion] ([id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_TicketAnswer_Ticket_ticketId] FOREIGN KEY ([ticketId]) REFERENCES [Ticket] ([Id]) ON DELETE CASCADE
+);
+2023-02-11 14:02:10.245 +03:30 [DBG] Disposing transaction.
+2023-02-11 14:02:10.245 +03:30 [DBG] Closing connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:02:10.246 +03:30 [DBG] Closed connection to database 'Ticketing_DB' on server 'ASUS_ROG' (0ms).
+2023-02-11 14:02:10.247 +03:30 [DBG] 'TicketingContext' disposed.
+2023-02-11 14:02:10.249 +03:30 [DBG] Disposing connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:02:10.249 +03:30 [DBG] Disposed connection to database '' on server '' (0ms).
+2023-02-11 14:02:48.296 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-02-11 14:02:48.963 +03:30 [DBG] Entity Framework Core 7.0.2 initialized 'TicketingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.2' with options: None
+2023-02-11 14:02:48.977 +03:30 [DBG] Creating DbConnection.
+2023-02-11 14:02:49.013 +03:30 [DBG] Created DbConnection. (33ms).
+2023-02-11 14:02:49.017 +03:30 [DBG] Migrating using database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:02:49.022 +03:30 [DBG] Opening connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:02:49.165 +03:30 [DBG] Opened connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:02:49.170 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 14:02:49.176 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (4ms).
+2023-02-11 14:02:49.178 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (9ms).
+2023-02-11 14:02:49.184 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-02-11 14:02:49.205 +03:30 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-02-11 14:02:49.207 +03:30 [DBG] Closing connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:02:49.215 +03:30 [DBG] Closed connection to database 'Ticketing_DB' on server 'ASUS_ROG' (5ms).
+2023-02-11 14:02:49.218 +03:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-02-11 14:02:49.218 +03:30 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-02-11 14:02:49.218 +03:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2023-02-11 14:02:49.218 +03:30 [DBG] Opening connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:02:49.223 +03:30 [DBG] Opened connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:02:49.223 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-02-11 14:02:49.236 +03:30 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-02-11 14:02:49.236 +03:30 [DBG] Closing connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:02:49.237 +03:30 [DBG] Closed connection to database 'Ticketing_DB' on server 'ASUS_ROG' (0ms).
+2023-02-11 14:02:49.239 +03:30 [DBG] Opening connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:02:49.243 +03:30 [DBG] Opened connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:02:49.243 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 14:02:49.243 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 14:02:49.243 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 14:02:49.243 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-02-11 14:02:49.244 +03:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-02-11 14:02:49.244 +03:30 [DBG] Closing connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:02:49.244 +03:30 [DBG] Closed connection to database 'Ticketing_DB' on server 'ASUS_ROG' (0ms).
+2023-02-11 14:02:49.244 +03:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-02-11 14:02:49.244 +03:30 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-02-11 14:02:49.244 +03:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2023-02-11 14:02:49.244 +03:30 [DBG] Opening connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:02:49.248 +03:30 [DBG] Opened connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:02:49.248 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-02-11 14:02:49.249 +03:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-02-11 14:02:49.249 +03:30 [DBG] Closing connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:02:49.249 +03:30 [DBG] Closed connection to database 'Ticketing_DB' on server 'ASUS_ROG' (0ms).
+2023-02-11 14:02:49.268 +03:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-02-11 14:02:49.268 +03:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-02-11 14:02:49.268 +03:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-02-11 14:02:49.269 +03:30 [DBG] Opening connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:02:49.272 +03:30 [DBG] Opened connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:02:49.273 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-02-11 14:02:49.275 +03:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-02-11 14:02:49.277 +03:30 [DBG] Closing data reader to 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:02:49.278 +03:30 [DBG] A data reader for 'Ticketing_DB' on server 'ASUS_ROG' is being disposed after spending 1ms reading results.
+2023-02-11 14:02:49.278 +03:30 [DBG] Closing connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:02:49.278 +03:30 [DBG] Closed connection to database 'Ticketing_DB' on server 'ASUS_ROG' (0ms).
+2023-02-11 14:02:49.294 +03:30 [INF] Applying migration '20230211103133_Initial'.
+2023-02-11 14:02:49.380 +03:30 [DBG] Executing 2 update commands as a batch.
+2023-02-11 14:02:49.381 +03:30 [DBG] Executing 2 update commands as a batch.
+2023-02-11 14:02:49.386 +03:30 [DBG] Opening connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:02:49.392 +03:30 [DBG] Opened connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:02:49.394 +03:30 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-02-11 14:02:49.399 +03:30 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-02-11 14:02:49.400 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 14:02:49.400 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 14:02:49.401 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 14:02:49.401 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Admin] (
+    [id] int NOT NULL IDENTITY,
+    [Email] nvarchar(75) NOT NULL,
+    [Password] nvarchar(50) NOT NULL,
+    CONSTRAINT [PK_Admin] PRIMARY KEY ([id])
+);
+2023-02-11 14:02:49.403 +03:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Admin] (
+    [id] int NOT NULL IDENTITY,
+    [Email] nvarchar(75) NOT NULL,
+    [Password] nvarchar(50) NOT NULL,
+    CONSTRAINT [PK_Admin] PRIMARY KEY ([id])
+);
+2023-02-11 14:02:49.403 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 14:02:49.403 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 14:02:49.403 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 14:02:49.403 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [User] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(50) NOT NULL,
+    [Email] nvarchar(75) NOT NULL,
+    [Password] nvarchar(50) NOT NULL,
+    CONSTRAINT [PK_User] PRIMARY KEY ([Id])
+);
+2023-02-11 14:02:49.405 +03:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [User] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(50) NOT NULL,
+    [Email] nvarchar(75) NOT NULL,
+    [Password] nvarchar(50) NOT NULL,
+    CONSTRAINT [PK_User] PRIMARY KEY ([Id])
+);
+2023-02-11 14:02:49.405 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 14:02:49.405 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 14:02:49.405 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 14:02:49.405 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Ticket] (
+    [Id] int NOT NULL IDENTITY,
+    [userId] int NOT NULL,
+    [Title] nvarchar(150) NOT NULL,
+    [DateTime] datetime2 NOT NULL,
+    [IsFinished] bit NOT NULL,
+    CONSTRAINT [PK_Ticket] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Ticket_User_userId] FOREIGN KEY ([userId]) REFERENCES [User] ([Id]) ON DELETE CASCADE
+);
+2023-02-11 14:02:49.429 +03:30 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Ticket] (
+    [Id] int NOT NULL IDENTITY,
+    [userId] int NOT NULL,
+    [Title] nvarchar(150) NOT NULL,
+    [DateTime] datetime2 NOT NULL,
+    [IsFinished] bit NOT NULL,
+    CONSTRAINT [PK_Ticket] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Ticket_User_userId] FOREIGN KEY ([userId]) REFERENCES [User] ([Id]) ON DELETE CASCADE
+);
+2023-02-11 14:02:49.429 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 14:02:49.429 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 14:02:49.429 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 14:02:49.429 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [TicketQuestion] (
+    [id] int NOT NULL IDENTITY,
+    [ticketId] int NOT NULL,
+    [Body] nvarchar(500) NOT NULL,
+    [DateTime] datetime2 NOT NULL,
+    [IsResponded] bit NOT NULL,
+    CONSTRAINT [PK_TicketQuestion] PRIMARY KEY ([id]),
+    CONSTRAINT [FK_TicketQuestion_Ticket_ticketId] FOREIGN KEY ([ticketId]) REFERENCES [Ticket] ([Id]) ON DELETE CASCADE
+);
+2023-02-11 14:02:49.431 +03:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [TicketQuestion] (
+    [id] int NOT NULL IDENTITY,
+    [ticketId] int NOT NULL,
+    [Body] nvarchar(500) NOT NULL,
+    [DateTime] datetime2 NOT NULL,
+    [IsResponded] bit NOT NULL,
+    CONSTRAINT [PK_TicketQuestion] PRIMARY KEY ([id]),
+    CONSTRAINT [FK_TicketQuestion_Ticket_ticketId] FOREIGN KEY ([ticketId]) REFERENCES [Ticket] ([Id]) ON DELETE CASCADE
+);
+2023-02-11 14:02:49.431 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 14:02:49.431 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 14:02:49.431 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 14:02:49.431 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [TicketAnswer] (
+    [id] int NOT NULL IDENTITY,
+    [adminId] int NOT NULL,
+    [ticketId] int NOT NULL,
+    [questionId] int NOT NULL,
+    [Body] nvarchar(500) NOT NULL,
+    [DateTime] datetime2 NOT NULL,
+    CONSTRAINT [PK_TicketAnswer] PRIMARY KEY ([id]),
+    CONSTRAINT [FK_TicketAnswer_Admin_adminId] FOREIGN KEY ([adminId]) REFERENCES [Admin] ([id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_TicketAnswer_TicketQuestion_questionId] FOREIGN KEY ([questionId]) REFERENCES [TicketQuestion] ([id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_TicketAnswer_Ticket_ticketId] FOREIGN KEY ([ticketId]) REFERENCES [Ticket] ([Id]) ON DELETE CASCADE
+);
+2023-02-11 14:02:49.440 +03:30 [ERR] Failed executing DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [TicketAnswer] (
+    [id] int NOT NULL IDENTITY,
+    [adminId] int NOT NULL,
+    [ticketId] int NOT NULL,
+    [questionId] int NOT NULL,
+    [Body] nvarchar(500) NOT NULL,
+    [DateTime] datetime2 NOT NULL,
+    CONSTRAINT [PK_TicketAnswer] PRIMARY KEY ([id]),
+    CONSTRAINT [FK_TicketAnswer_Admin_adminId] FOREIGN KEY ([adminId]) REFERENCES [Admin] ([id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_TicketAnswer_TicketQuestion_questionId] FOREIGN KEY ([questionId]) REFERENCES [TicketQuestion] ([id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_TicketAnswer_Ticket_ticketId] FOREIGN KEY ([ticketId]) REFERENCES [Ticket] ([Id]) ON DELETE CASCADE
+);
+2023-02-11 14:02:49.442 +03:30 [DBG] Disposing transaction.
+2023-02-11 14:02:49.442 +03:30 [DBG] Closing connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:02:49.442 +03:30 [DBG] Closed connection to database 'Ticketing_DB' on server 'ASUS_ROG' (0ms).
+2023-02-11 14:02:49.444 +03:30 [DBG] 'TicketingContext' disposed.
+2023-02-11 14:02:49.445 +03:30 [DBG] Disposing connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 14:02:49.446 +03:30 [DBG] Disposed connection to database '' on server '' (0ms).
+2023-02-11 19:07:31.777 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-02-11 19:07:32.486 +03:30 [DBG] Entity Framework Core 7.0.2 initialized 'TicketingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.2' with options: None
+2023-02-11 19:07:32.789 +03:30 [DBG] 'TicketingContext' disposed.
+2023-02-11 19:07:49.034 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-02-11 19:07:49.707 +03:30 [DBG] Entity Framework Core 7.0.2 initialized 'TicketingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.2' with options: None
+2023-02-11 19:07:49.727 +03:30 [DBG] Creating DbConnection.
+2023-02-11 19:07:49.943 +03:30 [DBG] Created DbConnection. (213ms).
+2023-02-11 19:07:49.947 +03:30 [DBG] Migrating using database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:07:49.953 +03:30 [DBG] Opening connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:07:50.483 +03:30 [DBG] An error occurred using the connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:07:50.484 +03:30 [DBG] Opening connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:07:50.489 +03:30 [DBG] An error occurred using the connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:07:50.623 +03:30 [DBG] Creating DbConnection.
+2023-02-11 19:07:50.623 +03:30 [DBG] Created DbConnection. (0ms).
+2023-02-11 19:07:50.624 +03:30 [DBG] Opening connection to database 'master' on server 'ASUS_ROG'.
+2023-02-11 19:07:50.639 +03:30 [DBG] Opened connection to database 'master' on server 'ASUS_ROG'.
+2023-02-11 19:07:50.644 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 19:07:50.651 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (5ms).
+2023-02-11 19:07:50.653 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (10ms).
+2023-02-11 19:07:50.659 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [Ticketing_DB];
+2023-02-11 19:07:51.620 +03:30 [INF] Executed DbCommand (962ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [Ticketing_DB];
+2023-02-11 19:07:51.622 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 19:07:51.622 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:07:51.622 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:07:51.622 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [Ticketing_DB] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2023-02-11 19:07:51.742 +03:30 [INF] Executed DbCommand (120ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [Ticketing_DB] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2023-02-11 19:07:51.745 +03:30 [DBG] Closing connection to database 'master' on server 'ASUS_ROG'.
+2023-02-11 19:07:51.765 +03:30 [DBG] Closed connection to database 'master' on server 'ASUS_ROG' (10ms).
+2023-02-11 19:07:51.769 +03:30 [DBG] Disposing connection to database 'master' on server 'ASUS_ROG'.
+2023-02-11 19:07:51.771 +03:30 [DBG] Disposed connection to database '' on server '' (1ms).
+2023-02-11 19:07:51.772 +03:30 [DBG] Opening connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:07:51.780 +03:30 [DBG] Opened connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:07:51.781 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 19:07:51.781 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:07:51.781 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:07:51.781 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-02-11 19:07:51.793 +03:30 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-02-11 19:07:51.793 +03:30 [DBG] Closing connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:07:51.794 +03:30 [DBG] Closed connection to database 'Ticketing_DB' on server 'ASUS_ROG' (0ms).
+2023-02-11 19:07:51.866 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 19:07:51.866 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:07:51.866 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:07:51.866 +03:30 [DBG] Opening connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:07:51.870 +03:30 [DBG] Opened connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:07:51.870 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2023-02-11 19:07:51.882 +03:30 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2023-02-11 19:07:51.882 +03:30 [DBG] Closing connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:07:51.883 +03:30 [DBG] Closed connection to database 'Ticketing_DB' on server 'ASUS_ROG' (0ms).
+2023-02-11 19:07:51.883 +03:30 [DBG] Opening connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:07:51.887 +03:30 [DBG] Opened connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:07:51.887 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 19:07:51.888 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:07:51.888 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:07:51.888 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-02-11 19:07:51.888 +03:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-02-11 19:07:51.888 +03:30 [DBG] Closing connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:07:51.889 +03:30 [DBG] Closed connection to database 'Ticketing_DB' on server 'ASUS_ROG' (0ms).
+2023-02-11 19:07:51.892 +03:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-02-11 19:07:51.892 +03:30 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-02-11 19:07:51.892 +03:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2023-02-11 19:07:51.892 +03:30 [DBG] Opening connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:07:51.896 +03:30 [DBG] Opened connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:07:51.897 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-02-11 19:07:51.912 +03:30 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-02-11 19:07:51.912 +03:30 [DBG] Closing connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:07:51.912 +03:30 [DBG] Closed connection to database 'Ticketing_DB' on server 'ASUS_ROG' (0ms).
+2023-02-11 19:07:51.914 +03:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-02-11 19:07:51.914 +03:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-02-11 19:07:51.914 +03:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-02-11 19:07:51.921 +03:30 [DBG] Opening connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:07:51.925 +03:30 [DBG] Opened connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:07:51.926 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-02-11 19:07:51.928 +03:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-02-11 19:07:51.929 +03:30 [DBG] Closing data reader to 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:07:51.930 +03:30 [DBG] A data reader for 'Ticketing_DB' on server 'ASUS_ROG' is being disposed after spending 1ms reading results.
+2023-02-11 19:07:51.931 +03:30 [DBG] Closing connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:07:51.931 +03:30 [DBG] Closed connection to database 'Ticketing_DB' on server 'ASUS_ROG' (0ms).
+2023-02-11 19:07:51.941 +03:30 [INF] Applying migration '20230211153732_init'.
+2023-02-11 19:07:52.007 +03:30 [DBG] Executing 2 update commands as a batch.
+2023-02-11 19:07:52.008 +03:30 [DBG] Executing 2 update commands as a batch.
+2023-02-11 19:07:52.013 +03:30 [DBG] Opening connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:07:52.017 +03:30 [DBG] Opened connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:07:52.019 +03:30 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-02-11 19:07:52.025 +03:30 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-02-11 19:07:52.025 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 19:07:52.025 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:07:52.026 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (1ms).
+2023-02-11 19:07:52.027 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Admin] (
+    [id] int NOT NULL IDENTITY,
+    [Email] nvarchar(75) NOT NULL,
+    [Password] nvarchar(50) NOT NULL,
+    CONSTRAINT [PK_Admin] PRIMARY KEY ([id])
+);
+2023-02-11 19:07:52.029 +03:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Admin] (
+    [id] int NOT NULL IDENTITY,
+    [Email] nvarchar(75) NOT NULL,
+    [Password] nvarchar(50) NOT NULL,
+    CONSTRAINT [PK_Admin] PRIMARY KEY ([id])
+);
+2023-02-11 19:07:52.029 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 19:07:52.029 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:07:52.029 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:07:52.029 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [User] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(50) NOT NULL,
+    [Email] nvarchar(75) NOT NULL,
+    [Password] nvarchar(50) NOT NULL,
+    CONSTRAINT [PK_User] PRIMARY KEY ([Id])
+);
+2023-02-11 19:07:52.032 +03:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [User] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(50) NOT NULL,
+    [Email] nvarchar(75) NOT NULL,
+    [Password] nvarchar(50) NOT NULL,
+    CONSTRAINT [PK_User] PRIMARY KEY ([Id])
+);
+2023-02-11 19:07:52.032 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 19:07:52.032 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:07:52.032 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:07:52.032 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Ticket] (
+    [Id] int NOT NULL IDENTITY,
+    [userId] int NOT NULL,
+    [Title] nvarchar(150) NOT NULL,
+    [DateTime] datetime2 NOT NULL,
+    [IsFinished] bit NOT NULL,
+    CONSTRAINT [PK_Ticket] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Ticket_User_userId] FOREIGN KEY ([userId]) REFERENCES [User] ([Id]) ON DELETE CASCADE
+);
+2023-02-11 19:07:52.036 +03:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Ticket] (
+    [Id] int NOT NULL IDENTITY,
+    [userId] int NOT NULL,
+    [Title] nvarchar(150) NOT NULL,
+    [DateTime] datetime2 NOT NULL,
+    [IsFinished] bit NOT NULL,
+    CONSTRAINT [PK_Ticket] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Ticket_User_userId] FOREIGN KEY ([userId]) REFERENCES [User] ([Id]) ON DELETE CASCADE
+);
+2023-02-11 19:07:52.036 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 19:07:54.234 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (2198ms).
+2023-02-11 19:07:54.234 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (2198ms).
+2023-02-11 19:07:54.234 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [TicketQuestion] (
+    [id] int NOT NULL IDENTITY,
+    [ticketId] int NOT NULL,
+    [Body] nvarchar(500) NOT NULL,
+    [DateTime] datetime2 NOT NULL,
+    [IsResponded] bit NOT NULL,
+    CONSTRAINT [PK_TicketQuestion] PRIMARY KEY ([id]),
+    CONSTRAINT [FK_TicketQuestion_Ticket_ticketId] FOREIGN KEY ([ticketId]) REFERENCES [Ticket] ([Id]) ON DELETE CASCADE
+);
+2023-02-11 19:07:54.237 +03:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [TicketQuestion] (
+    [id] int NOT NULL IDENTITY,
+    [ticketId] int NOT NULL,
+    [Body] nvarchar(500) NOT NULL,
+    [DateTime] datetime2 NOT NULL,
+    [IsResponded] bit NOT NULL,
+    CONSTRAINT [PK_TicketQuestion] PRIMARY KEY ([id]),
+    CONSTRAINT [FK_TicketQuestion_Ticket_ticketId] FOREIGN KEY ([ticketId]) REFERENCES [Ticket] ([Id]) ON DELETE CASCADE
+);
+2023-02-11 19:07:54.237 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 19:07:54.237 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:07:54.237 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:07:54.237 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [TicketAnswer] (
+    [id] int NOT NULL IDENTITY,
+    [adminId] int NOT NULL,
+    [ticketId] int NOT NULL,
+    [questionId] int NOT NULL,
+    [Body] nvarchar(500) NOT NULL,
+    [DateTime] datetime2 NOT NULL,
+    CONSTRAINT [PK_TicketAnswer] PRIMARY KEY ([id]),
+    CONSTRAINT [FK_TicketAnswer_Admin_adminId] FOREIGN KEY ([adminId]) REFERENCES [Admin] ([id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_TicketAnswer_TicketQuestion_questionId] FOREIGN KEY ([questionId]) REFERENCES [TicketQuestion] ([id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_TicketAnswer_Ticket_ticketId] FOREIGN KEY ([ticketId]) REFERENCES [Ticket] ([Id]) ON DELETE CASCADE
+);
+2023-02-11 19:07:54.245 +03:30 [ERR] Failed executing DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [TicketAnswer] (
+    [id] int NOT NULL IDENTITY,
+    [adminId] int NOT NULL,
+    [ticketId] int NOT NULL,
+    [questionId] int NOT NULL,
+    [Body] nvarchar(500) NOT NULL,
+    [DateTime] datetime2 NOT NULL,
+    CONSTRAINT [PK_TicketAnswer] PRIMARY KEY ([id]),
+    CONSTRAINT [FK_TicketAnswer_Admin_adminId] FOREIGN KEY ([adminId]) REFERENCES [Admin] ([id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_TicketAnswer_TicketQuestion_questionId] FOREIGN KEY ([questionId]) REFERENCES [TicketQuestion] ([id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_TicketAnswer_Ticket_ticketId] FOREIGN KEY ([ticketId]) REFERENCES [Ticket] ([Id]) ON DELETE CASCADE
+);
+2023-02-11 19:07:54.246 +03:30 [DBG] Disposing transaction.
+2023-02-11 19:07:54.247 +03:30 [DBG] Closing connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:07:54.247 +03:30 [DBG] Closed connection to database 'Ticketing_DB' on server 'ASUS_ROG' (0ms).
+2023-02-11 19:07:54.249 +03:30 [DBG] 'TicketingContext' disposed.
+2023-02-11 19:07:54.250 +03:30 [DBG] Disposing connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:07:54.250 +03:30 [DBG] Disposed connection to database '' on server '' (0ms).
+2023-02-11 19:09:05.601 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-02-11 19:09:06.266 +03:30 [DBG] Entity Framework Core 7.0.2 initialized 'TicketingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.2' with options: None
+2023-02-11 19:09:06.532 +03:30 [DBG] Creating DbConnection.
+2023-02-11 19:09:06.567 +03:30 [DBG] Created DbConnection. (32ms).
+2023-02-11 19:09:06.573 +03:30 [DBG] Opening connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:09:06.715 +03:30 [DBG] Opened connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:09:06.720 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 19:09:06.726 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (5ms).
+2023-02-11 19:09:06.728 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (9ms).
+2023-02-11 19:09:06.734 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-02-11 19:09:06.756 +03:30 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-02-11 19:09:06.758 +03:30 [DBG] Closing connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:09:06.767 +03:30 [DBG] Closed connection to database 'Ticketing_DB' on server 'ASUS_ROG' (5ms).
+2023-02-11 19:09:06.769 +03:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-02-11 19:09:06.769 +03:30 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-02-11 19:09:06.770 +03:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2023-02-11 19:09:06.770 +03:30 [DBG] Opening connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:09:06.774 +03:30 [DBG] Opened connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:09:06.774 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-02-11 19:09:06.787 +03:30 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-02-11 19:09:06.787 +03:30 [DBG] Closing connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:09:06.788 +03:30 [DBG] Closed connection to database 'Ticketing_DB' on server 'ASUS_ROG' (0ms).
+2023-02-11 19:09:06.802 +03:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-02-11 19:09:06.802 +03:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-02-11 19:09:06.802 +03:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-02-11 19:09:06.802 +03:30 [DBG] Opening connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:09:06.806 +03:30 [DBG] Opened connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:09:06.806 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-02-11 19:09:06.808 +03:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-02-11 19:09:06.810 +03:30 [DBG] Closing data reader to 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:09:06.811 +03:30 [DBG] A data reader for 'Ticketing_DB' on server 'ASUS_ROG' is being disposed after spending 1ms reading results.
+2023-02-11 19:09:06.811 +03:30 [DBG] Closing connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:09:06.811 +03:30 [DBG] Closed connection to database 'Ticketing_DB' on server 'ASUS_ROG' (0ms).
+2023-02-11 19:09:06.816 +03:30 [DBG] 'TicketingContext' disposed.
+2023-02-11 19:09:06.817 +03:30 [DBG] Disposing connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:09:06.818 +03:30 [DBG] Disposed connection to database '' on server '' (0ms).
+2023-02-11 19:12:58.877 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-02-11 19:12:59.630 +03:30 [DBG] Entity Framework Core 7.0.2 initialized 'TicketingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.2' with options: None
+2023-02-11 19:12:59.946 +03:30 [DBG] 'TicketingContext' disposed.
+2023-02-11 19:13:08.213 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-02-11 19:13:08.934 +03:30 [DBG] Entity Framework Core 7.0.2 initialized 'TicketingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.2' with options: None
+2023-02-11 19:13:08.955 +03:30 [DBG] Creating DbConnection.
+2023-02-11 19:13:09.023 +03:30 [DBG] Created DbConnection. (65ms).
+2023-02-11 19:13:09.027 +03:30 [DBG] Migrating using database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:13:09.034 +03:30 [DBG] Opening connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:13:09.266 +03:30 [DBG] Opened connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:13:09.272 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 19:13:09.279 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (6ms).
+2023-02-11 19:13:09.280 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (11ms).
+2023-02-11 19:13:09.287 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-02-11 19:13:09.310 +03:30 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-02-11 19:13:09.312 +03:30 [DBG] Closing connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:13:09.321 +03:30 [DBG] Closed connection to database 'Ticketing_DB' on server 'ASUS_ROG' (5ms).
+2023-02-11 19:13:09.324 +03:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-02-11 19:13:09.324 +03:30 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-02-11 19:13:09.324 +03:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2023-02-11 19:13:09.324 +03:30 [DBG] Opening connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:13:09.328 +03:30 [DBG] Opened connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:13:09.329 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-02-11 19:13:09.343 +03:30 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-02-11 19:13:09.343 +03:30 [DBG] Closing connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:13:09.344 +03:30 [DBG] Closed connection to database 'Ticketing_DB' on server 'ASUS_ROG' (0ms).
+2023-02-11 19:13:09.345 +03:30 [DBG] Opening connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:13:09.348 +03:30 [DBG] Opened connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:13:09.350 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 19:13:09.350 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:13:09.350 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:13:09.350 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-02-11 19:13:09.350 +03:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-02-11 19:13:09.350 +03:30 [DBG] Closing connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:13:09.351 +03:30 [DBG] Closed connection to database 'Ticketing_DB' on server 'ASUS_ROG' (0ms).
+2023-02-11 19:13:09.351 +03:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-02-11 19:13:09.351 +03:30 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-02-11 19:13:09.351 +03:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2023-02-11 19:13:09.351 +03:30 [DBG] Opening connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:13:09.354 +03:30 [DBG] Opened connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:13:09.355 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-02-11 19:13:09.355 +03:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-02-11 19:13:09.355 +03:30 [DBG] Closing connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:13:09.356 +03:30 [DBG] Closed connection to database 'Ticketing_DB' on server 'ASUS_ROG' (0ms).
+2023-02-11 19:13:09.376 +03:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-02-11 19:13:09.377 +03:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-02-11 19:13:09.377 +03:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-02-11 19:13:09.377 +03:30 [DBG] Opening connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:13:09.380 +03:30 [DBG] Opened connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:13:09.381 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-02-11 19:13:09.383 +03:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-02-11 19:13:09.385 +03:30 [DBG] Closing data reader to 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:13:09.386 +03:30 [DBG] A data reader for 'Ticketing_DB' on server 'ASUS_ROG' is being disposed after spending 1ms reading results.
+2023-02-11 19:13:09.386 +03:30 [DBG] Closing connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:13:09.387 +03:30 [DBG] Closed connection to database 'Ticketing_DB' on server 'ASUS_ROG' (0ms).
+2023-02-11 19:13:09.396 +03:30 [INF] Applying migration '20230211154259_init'.
+2023-02-11 19:13:09.492 +03:30 [DBG] Executing 2 update commands as a batch.
+2023-02-11 19:13:09.493 +03:30 [DBG] Executing 2 update commands as a batch.
+2023-02-11 19:13:09.498 +03:30 [DBG] Opening connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:13:09.502 +03:30 [DBG] Opened connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:13:09.504 +03:30 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-02-11 19:13:09.509 +03:30 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-02-11 19:13:09.510 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 19:13:09.510 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:13:09.511 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:13:09.511 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Admin] (
+    [id] int NOT NULL IDENTITY,
+    [Email] nvarchar(75) NOT NULL,
+    [Password] nvarchar(50) NOT NULL,
+    CONSTRAINT [PK_Admin] PRIMARY KEY ([id])
+);
+2023-02-11 19:13:09.514 +03:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Admin] (
+    [id] int NOT NULL IDENTITY,
+    [Email] nvarchar(75) NOT NULL,
+    [Password] nvarchar(50) NOT NULL,
+    CONSTRAINT [PK_Admin] PRIMARY KEY ([id])
+);
+2023-02-11 19:13:09.514 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 19:13:09.514 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:13:09.514 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:13:09.514 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [User] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(50) NOT NULL,
+    [Email] nvarchar(75) NOT NULL,
+    [Password] nvarchar(50) NOT NULL,
+    CONSTRAINT [PK_User] PRIMARY KEY ([Id])
+);
+2023-02-11 19:13:09.516 +03:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [User] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(50) NOT NULL,
+    [Email] nvarchar(75) NOT NULL,
+    [Password] nvarchar(50) NOT NULL,
+    CONSTRAINT [PK_User] PRIMARY KEY ([Id])
+);
+2023-02-11 19:13:09.516 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 19:13:09.516 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:13:09.516 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:13:09.516 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Ticket] (
+    [Id] int NOT NULL IDENTITY,
+    [userId] int NOT NULL,
+    [Title] nvarchar(150) NOT NULL,
+    [DateTime] datetime2 NOT NULL,
+    [IsFinished] bit NOT NULL,
+    CONSTRAINT [PK_Ticket] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Ticket_User_userId] FOREIGN KEY ([userId]) REFERENCES [User] ([Id]) ON DELETE CASCADE
+);
+2023-02-11 19:13:09.531 +03:30 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Ticket] (
+    [Id] int NOT NULL IDENTITY,
+    [userId] int NOT NULL,
+    [Title] nvarchar(150) NOT NULL,
+    [DateTime] datetime2 NOT NULL,
+    [IsFinished] bit NOT NULL,
+    CONSTRAINT [PK_Ticket] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Ticket_User_userId] FOREIGN KEY ([userId]) REFERENCES [User] ([Id]) ON DELETE CASCADE
+);
+2023-02-11 19:13:09.531 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 19:13:09.531 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:13:09.531 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:13:09.531 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [TicketQuestion] (
+    [id] int NOT NULL IDENTITY,
+    [ticketId] int NOT NULL,
+    [Body] nvarchar(500) NOT NULL,
+    [DateTime] datetime2 NOT NULL,
+    [IsResponded] bit NOT NULL,
+    CONSTRAINT [PK_TicketQuestion] PRIMARY KEY ([id]),
+    CONSTRAINT [FK_TicketQuestion_Ticket_ticketId] FOREIGN KEY ([ticketId]) REFERENCES [Ticket] ([Id]) ON DELETE CASCADE
+);
+2023-02-11 19:13:09.534 +03:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [TicketQuestion] (
+    [id] int NOT NULL IDENTITY,
+    [ticketId] int NOT NULL,
+    [Body] nvarchar(500) NOT NULL,
+    [DateTime] datetime2 NOT NULL,
+    [IsResponded] bit NOT NULL,
+    CONSTRAINT [PK_TicketQuestion] PRIMARY KEY ([id]),
+    CONSTRAINT [FK_TicketQuestion_Ticket_ticketId] FOREIGN KEY ([ticketId]) REFERENCES [Ticket] ([Id]) ON DELETE CASCADE
+);
+2023-02-11 19:13:11.370 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 19:13:11.370 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:13:11.371 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:13:11.371 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [TicketAnswer] (
+    [id] int NOT NULL IDENTITY,
+    [adminId] int NOT NULL,
+    [ticketId] int NOT NULL,
+    [questionId] int NULL,
+    [Body] nvarchar(500) NOT NULL,
+    [DateTime] datetime2 NOT NULL,
+    CONSTRAINT [PK_TicketAnswer] PRIMARY KEY ([id]),
+    CONSTRAINT [FK_TicketAnswer_Admin_adminId] FOREIGN KEY ([adminId]) REFERENCES [Admin] ([id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_TicketAnswer_TicketQuestion_questionId] FOREIGN KEY ([questionId]) REFERENCES [TicketQuestion] ([id]),
+    CONSTRAINT [FK_TicketAnswer_Ticket_ticketId] FOREIGN KEY ([ticketId]) REFERENCES [Ticket] ([Id]) ON DELETE CASCADE
+);
+2023-02-11 19:13:11.374 +03:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [TicketAnswer] (
+    [id] int NOT NULL IDENTITY,
+    [adminId] int NOT NULL,
+    [ticketId] int NOT NULL,
+    [questionId] int NULL,
+    [Body] nvarchar(500) NOT NULL,
+    [DateTime] datetime2 NOT NULL,
+    CONSTRAINT [PK_TicketAnswer] PRIMARY KEY ([id]),
+    CONSTRAINT [FK_TicketAnswer_Admin_adminId] FOREIGN KEY ([adminId]) REFERENCES [Admin] ([id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_TicketAnswer_TicketQuestion_questionId] FOREIGN KEY ([questionId]) REFERENCES [TicketQuestion] ([id]),
+    CONSTRAINT [FK_TicketAnswer_Ticket_ticketId] FOREIGN KEY ([ticketId]) REFERENCES [Ticket] ([Id]) ON DELETE CASCADE
+);
+2023-02-11 19:13:11.374 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 19:13:11.374 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:13:11.374 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:13:11.374 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'id', N'Email', N'Password') AND [object_id] = OBJECT_ID(N'[Admin]'))
+    SET IDENTITY_INSERT [Admin] ON;
+INSERT INTO [Admin] ([id], [Email], [Password])
+VALUES (1, N'Admin@gmail.com', N'Admin');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'id', N'Email', N'Password') AND [object_id] = OBJECT_ID(N'[Admin]'))
+    SET IDENTITY_INSERT [Admin] OFF;
+2023-02-11 19:13:11.559 +03:30 [INF] Executed DbCommand (185ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'id', N'Email', N'Password') AND [object_id] = OBJECT_ID(N'[Admin]'))
+    SET IDENTITY_INSERT [Admin] ON;
+INSERT INTO [Admin] ([id], [Email], [Password])
+VALUES (1, N'Admin@gmail.com', N'Admin');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'id', N'Email', N'Password') AND [object_id] = OBJECT_ID(N'[Admin]'))
+    SET IDENTITY_INSERT [Admin] OFF;
+2023-02-11 19:13:11.559 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 19:13:11.559 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:13:11.559 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:13:11.559 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Email', N'Name', N'Password') AND [object_id] = OBJECT_ID(N'[User]'))
+    SET IDENTITY_INSERT [User] ON;
+INSERT INTO [User] ([Id], [Email], [Name], [Password])
+VALUES (1, N'User1@gmail.com', N'User1', N'User1'),
+(2, N'User2@gmail.com', N'User2', N'User2');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Email', N'Name', N'Password') AND [object_id] = OBJECT_ID(N'[User]'))
+    SET IDENTITY_INSERT [User] OFF;
+2023-02-11 19:13:11.575 +03:30 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Email', N'Name', N'Password') AND [object_id] = OBJECT_ID(N'[User]'))
+    SET IDENTITY_INSERT [User] ON;
+INSERT INTO [User] ([Id], [Email], [Name], [Password])
+VALUES (1, N'User1@gmail.com', N'User1', N'User1'),
+(2, N'User2@gmail.com', N'User2', N'User2');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Email', N'Name', N'Password') AND [object_id] = OBJECT_ID(N'[User]'))
+    SET IDENTITY_INSERT [User] OFF;
+2023-02-11 19:13:14.619 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 19:13:14.619 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:13:14.619 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:13:14.619 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'DateTime', N'IsFinished', N'Title', N'userId') AND [object_id] = OBJECT_ID(N'[Ticket]'))
+    SET IDENTITY_INSERT [Ticket] ON;
+INSERT INTO [Ticket] ([Id], [DateTime], [IsFinished], [Title], [userId])
+VALUES (1, '2023-02-11T19:12:59.6609593+03:30', CAST(0 AS bit), N'رفع باگ', 1),
+(2, '2023-02-11T19:12:59.6609598+03:30', CAST(1 AS bit), N'مدیریت خطا ها', 1);
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'DateTime', N'IsFinished', N'Title', N'userId') AND [object_id] = OBJECT_ID(N'[Ticket]'))
+    SET IDENTITY_INSERT [Ticket] OFF;
+2023-02-11 19:13:14.640 +03:30 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'DateTime', N'IsFinished', N'Title', N'userId') AND [object_id] = OBJECT_ID(N'[Ticket]'))
+    SET IDENTITY_INSERT [Ticket] ON;
+INSERT INTO [Ticket] ([Id], [DateTime], [IsFinished], [Title], [userId])
+VALUES (1, '2023-02-11T19:12:59.6609593+03:30', CAST(0 AS bit), N'رفع باگ', 1),
+(2, '2023-02-11T19:12:59.6609598+03:30', CAST(1 AS bit), N'مدیریت خطا ها', 1);
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'DateTime', N'IsFinished', N'Title', N'userId') AND [object_id] = OBJECT_ID(N'[Ticket]'))
+    SET IDENTITY_INSERT [Ticket] OFF;
+2023-02-11 19:13:14.640 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 19:13:14.640 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:13:14.640 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:13:14.640 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'id', N'Body', N'DateTime', N'adminId', N'questionId', N'ticketId') AND [object_id] = OBJECT_ID(N'[TicketAnswer]'))
+    SET IDENTITY_INSERT [TicketAnswer] ON;
+INSERT INTO [TicketAnswer] ([id], [Body], [DateTime], [adminId], [questionId], [ticketId])
+VALUES (1, N'در حال بررسی میباشد لطفا صبور باشید', '2023-02-11T19:12:59.6609709+03:30', 1, NULL, 1);
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'id', N'Body', N'DateTime', N'adminId', N'questionId', N'ticketId') AND [object_id] = OBJECT_ID(N'[TicketAnswer]'))
+    SET IDENTITY_INSERT [TicketAnswer] OFF;
+2023-02-11 19:13:14.655 +03:30 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'id', N'Body', N'DateTime', N'adminId', N'questionId', N'ticketId') AND [object_id] = OBJECT_ID(N'[TicketAnswer]'))
+    SET IDENTITY_INSERT [TicketAnswer] ON;
+INSERT INTO [TicketAnswer] ([id], [Body], [DateTime], [adminId], [questionId], [ticketId])
+VALUES (1, N'در حال بررسی میباشد لطفا صبور باشید', '2023-02-11T19:12:59.6609709+03:30', 1, NULL, 1);
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'id', N'Body', N'DateTime', N'adminId', N'questionId', N'ticketId') AND [object_id] = OBJECT_ID(N'[TicketAnswer]'))
+    SET IDENTITY_INSERT [TicketAnswer] OFF;
+2023-02-11 19:13:14.655 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 19:13:14.655 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:13:14.655 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:13:14.655 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'id', N'Body', N'DateTime', N'IsResponded', N'ticketId') AND [object_id] = OBJECT_ID(N'[TicketQuestion]'))
+    SET IDENTITY_INSERT [TicketQuestion] ON;
+INSERT INTO [TicketQuestion] ([id], [Body], [DateTime], [IsResponded], [ticketId])
+VALUES (1, N'لطفا باگ صفحه ورود را برطرف کنید', '2023-02-11T19:12:59.6609625+03:30', CAST(1 AS bit), 1);
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'id', N'Body', N'DateTime', N'IsResponded', N'ticketId') AND [object_id] = OBJECT_ID(N'[TicketQuestion]'))
+    SET IDENTITY_INSERT [TicketQuestion] OFF;
+2023-02-11 19:13:17.393 +03:30 [INF] Executed DbCommand (2,738ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'id', N'Body', N'DateTime', N'IsResponded', N'ticketId') AND [object_id] = OBJECT_ID(N'[TicketQuestion]'))
+    SET IDENTITY_INSERT [TicketQuestion] ON;
+INSERT INTO [TicketQuestion] ([id], [Body], [DateTime], [IsResponded], [ticketId])
+VALUES (1, N'لطفا باگ صفحه ورود را برطرف کنید', '2023-02-11T19:12:59.6609625+03:30', CAST(1 AS bit), 1);
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'id', N'Body', N'DateTime', N'IsResponded', N'ticketId') AND [object_id] = OBJECT_ID(N'[TicketQuestion]'))
+    SET IDENTITY_INSERT [TicketQuestion] OFF;
+2023-02-11 19:13:17.393 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 19:13:17.393 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:13:17.393 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:13:17.393 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Ticket_userId] ON [Ticket] ([userId]);
+2023-02-11 19:13:17.425 +03:30 [INF] Executed DbCommand (32ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Ticket_userId] ON [Ticket] ([userId]);
+2023-02-11 19:13:17.425 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 19:13:17.425 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:13:17.425 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:13:17.425 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_TicketAnswer_adminId] ON [TicketAnswer] ([adminId]);
+2023-02-11 19:13:17.428 +03:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_TicketAnswer_adminId] ON [TicketAnswer] ([adminId]);
+2023-02-11 19:13:17.428 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 19:13:17.428 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:13:17.428 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:13:17.428 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_TicketAnswer_questionId] ON [TicketAnswer] ([questionId]);
+2023-02-11 19:13:17.429 +03:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_TicketAnswer_questionId] ON [TicketAnswer] ([questionId]);
+2023-02-11 19:13:17.429 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 19:13:17.429 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:13:17.430 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:13:17.430 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_TicketAnswer_ticketId] ON [TicketAnswer] ([ticketId]);
+2023-02-11 19:13:17.431 +03:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_TicketAnswer_ticketId] ON [TicketAnswer] ([ticketId]);
+2023-02-11 19:13:17.432 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 19:13:17.432 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:13:17.432 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:13:17.432 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_TicketQuestion_ticketId] ON [TicketQuestion] ([ticketId]);
+2023-02-11 19:13:17.435 +03:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_TicketQuestion_ticketId] ON [TicketQuestion] ([ticketId]);
+2023-02-11 19:13:17.435 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 19:13:17.435 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:13:18.877 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (1441ms).
+2023-02-11 19:13:18.877 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230211154259_init', N'7.0.2');
+2023-02-11 19:13:18.882 +03:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230211154259_init', N'7.0.2');
+2023-02-11 19:13:18.883 +03:30 [DBG] Committing transaction.
+2023-02-11 19:13:18.888 +03:30 [DBG] Committed transaction.
+2023-02-11 19:13:18.889 +03:30 [DBG] Disposing transaction.
+2023-02-11 19:13:18.889 +03:30 [DBG] Closing connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:13:18.890 +03:30 [DBG] Closed connection to database 'Ticketing_DB' on server 'ASUS_ROG' (0ms).
+2023-02-11 19:13:18.892 +03:30 [DBG] 'TicketingContext' disposed.
+2023-02-11 19:13:18.893 +03:30 [DBG] Disposing connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:13:18.894 +03:30 [DBG] Disposed connection to database '' on server '' (1ms).
+2023-02-11 19:14:42.548 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-02-11 19:14:43.342 +03:30 [DBG] Entity Framework Core 7.0.2 initialized 'TicketingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.2' with options: None
+2023-02-11 19:14:43.633 +03:30 [DBG] Creating DbConnection.
+2023-02-11 19:14:43.670 +03:30 [DBG] Created DbConnection. (34ms).
+2023-02-11 19:14:43.676 +03:30 [DBG] Opening connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:14:43.822 +03:30 [DBG] Opened connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:14:43.827 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 19:14:43.833 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (4ms).
+2023-02-11 19:14:43.835 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (9ms).
+2023-02-11 19:14:43.841 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-02-11 19:14:43.862 +03:30 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-02-11 19:14:43.864 +03:30 [DBG] Closing connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:14:43.872 +03:30 [DBG] Closed connection to database 'Ticketing_DB' on server 'ASUS_ROG' (4ms).
+2023-02-11 19:14:43.875 +03:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-02-11 19:14:43.875 +03:30 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-02-11 19:14:43.875 +03:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2023-02-11 19:14:43.875 +03:30 [DBG] Opening connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:14:43.879 +03:30 [DBG] Opened connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:14:43.879 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-02-11 19:14:43.892 +03:30 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-02-11 19:14:43.892 +03:30 [DBG] Closing connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:14:43.893 +03:30 [DBG] Closed connection to database 'Ticketing_DB' on server 'ASUS_ROG' (0ms).
+2023-02-11 19:14:43.908 +03:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-02-11 19:14:43.908 +03:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-02-11 19:14:43.908 +03:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-02-11 19:14:43.908 +03:30 [DBG] Opening connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:14:43.912 +03:30 [DBG] Opened connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:14:43.912 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-02-11 19:14:43.932 +03:30 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-02-11 19:14:43.935 +03:30 [DBG] Closing data reader to 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:14:43.936 +03:30 [DBG] A data reader for 'Ticketing_DB' on server 'ASUS_ROG' is being disposed after spending 2ms reading results.
+2023-02-11 19:14:43.936 +03:30 [DBG] Closing connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:14:43.936 +03:30 [DBG] Closed connection to database 'Ticketing_DB' on server 'ASUS_ROG' (0ms).
+2023-02-11 19:14:43.938 +03:30 [DBG] 'TicketingContext' disposed.
+2023-02-11 19:14:43.940 +03:30 [DBG] Disposing connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:14:43.941 +03:30 [DBG] Disposed connection to database '' on server '' (0ms).
+2023-02-11 19:17:19.658 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-02-11 19:17:20.334 +03:30 [DBG] Entity Framework Core 7.0.2 initialized 'TicketingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.2' with options: None
+2023-02-11 19:17:20.623 +03:30 [DBG] 'TicketingContext' disposed.
+2023-02-11 19:17:39.349 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-02-11 19:17:40.018 +03:30 [DBG] Entity Framework Core 7.0.2 initialized 'TicketingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.2' with options: None
+2023-02-11 19:17:40.034 +03:30 [DBG] Creating DbConnection.
+2023-02-11 19:17:40.070 +03:30 [DBG] Created DbConnection. (33ms).
+2023-02-11 19:17:40.074 +03:30 [DBG] Migrating using database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:17:40.079 +03:30 [DBG] Opening connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:17:40.219 +03:30 [DBG] An error occurred using the connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:17:40.220 +03:30 [DBG] Opening connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:17:40.224 +03:30 [DBG] An error occurred using the connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:17:40.353 +03:30 [DBG] Creating DbConnection.
+2023-02-11 19:17:40.353 +03:30 [DBG] Created DbConnection. (0ms).
+2023-02-11 19:17:40.353 +03:30 [DBG] Opening connection to database 'master' on server 'ASUS_ROG'.
+2023-02-11 19:17:40.364 +03:30 [DBG] Opened connection to database 'master' on server 'ASUS_ROG'.
+2023-02-11 19:17:40.369 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 19:17:40.375 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (4ms).
+2023-02-11 19:17:40.377 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (9ms).
+2023-02-11 19:17:40.382 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [Ticketing_DB];
+2023-02-11 19:17:40.622 +03:30 [INF] Executed DbCommand (240ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [Ticketing_DB];
+2023-02-11 19:17:40.623 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 19:17:40.623 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:17:40.623 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:17:40.623 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [Ticketing_DB] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2023-02-11 19:17:40.713 +03:30 [INF] Executed DbCommand (90ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [Ticketing_DB] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2023-02-11 19:17:40.714 +03:30 [DBG] Closing connection to database 'master' on server 'ASUS_ROG'.
+2023-02-11 19:17:40.723 +03:30 [DBG] Closed connection to database 'master' on server 'ASUS_ROG' (4ms).
+2023-02-11 19:17:40.725 +03:30 [DBG] Disposing connection to database 'master' on server 'ASUS_ROG'.
+2023-02-11 19:17:40.726 +03:30 [DBG] Disposed connection to database '' on server '' (1ms).
+2023-02-11 19:17:40.727 +03:30 [DBG] Opening connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:17:40.731 +03:30 [DBG] Opened connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:17:40.731 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 19:17:40.732 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:17:40.732 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:17:40.732 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-02-11 19:17:40.740 +03:30 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-02-11 19:17:40.740 +03:30 [DBG] Closing connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:17:40.741 +03:30 [DBG] Closed connection to database 'Ticketing_DB' on server 'ASUS_ROG' (0ms).
+2023-02-11 19:17:40.811 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 19:17:40.811 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:17:40.811 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:17:40.811 +03:30 [DBG] Opening connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:17:40.816 +03:30 [DBG] Opened connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:17:40.816 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2023-02-11 19:17:40.840 +03:30 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2023-02-11 19:17:40.840 +03:30 [DBG] Closing connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:17:40.841 +03:30 [DBG] Closed connection to database 'Ticketing_DB' on server 'ASUS_ROG' (0ms).
+2023-02-11 19:17:40.841 +03:30 [DBG] Opening connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:17:40.849 +03:30 [DBG] Opened connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:17:40.849 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 19:17:40.849 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:17:40.849 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:17:40.849 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-02-11 19:17:40.850 +03:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-02-11 19:17:40.850 +03:30 [DBG] Closing connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:17:40.850 +03:30 [DBG] Closed connection to database 'Ticketing_DB' on server 'ASUS_ROG' (0ms).
+2023-02-11 19:17:40.853 +03:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-02-11 19:17:40.853 +03:30 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-02-11 19:17:40.853 +03:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2023-02-11 19:17:40.853 +03:30 [DBG] Opening connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:17:40.857 +03:30 [DBG] Opened connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:17:40.857 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-02-11 19:17:40.872 +03:30 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-02-11 19:17:40.872 +03:30 [DBG] Closing connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:17:40.872 +03:30 [DBG] Closed connection to database 'Ticketing_DB' on server 'ASUS_ROG' (0ms).
+2023-02-11 19:17:40.875 +03:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-02-11 19:17:40.875 +03:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-02-11 19:17:40.875 +03:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-02-11 19:17:41.064 +03:30 [DBG] Opening connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:17:41.069 +03:30 [DBG] Opened connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:17:41.069 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-02-11 19:17:41.072 +03:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-02-11 19:17:41.074 +03:30 [DBG] Closing data reader to 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:17:41.075 +03:30 [DBG] A data reader for 'Ticketing_DB' on server 'ASUS_ROG' is being disposed after spending 1ms reading results.
+2023-02-11 19:17:41.075 +03:30 [DBG] Closing connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:17:41.075 +03:30 [DBG] Closed connection to database 'Ticketing_DB' on server 'ASUS_ROG' (0ms).
+2023-02-11 19:17:41.085 +03:30 [INF] Applying migration '20230211154720_init'.
+2023-02-11 19:17:41.164 +03:30 [DBG] Executing 2 update commands as a batch.
+2023-02-11 19:17:41.165 +03:30 [DBG] Executing 2 update commands as a batch.
+2023-02-11 19:17:41.169 +03:30 [DBG] Opening connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:17:41.174 +03:30 [DBG] Opened connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:17:41.176 +03:30 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-02-11 19:17:41.181 +03:30 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-02-11 19:17:41.181 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 19:17:41.182 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:17:41.182 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:17:41.182 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Admin] (
+    [id] int NOT NULL IDENTITY,
+    [Email] nvarchar(75) NOT NULL,
+    [Password] nvarchar(50) NOT NULL,
+    CONSTRAINT [PK_Admin] PRIMARY KEY ([id])
+);
+2023-02-11 19:17:41.184 +03:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Admin] (
+    [id] int NOT NULL IDENTITY,
+    [Email] nvarchar(75) NOT NULL,
+    [Password] nvarchar(50) NOT NULL,
+    CONSTRAINT [PK_Admin] PRIMARY KEY ([id])
+);
+2023-02-11 19:17:41.185 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 19:17:41.185 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:17:41.185 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:17:41.185 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [User] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(50) NOT NULL,
+    [Email] nvarchar(75) NOT NULL,
+    [Password] nvarchar(50) NOT NULL,
+    CONSTRAINT [PK_User] PRIMARY KEY ([Id])
+);
+2023-02-11 19:17:41.188 +03:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [User] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(50) NOT NULL,
+    [Email] nvarchar(75) NOT NULL,
+    [Password] nvarchar(50) NOT NULL,
+    CONSTRAINT [PK_User] PRIMARY KEY ([Id])
+);
+2023-02-11 19:17:41.188 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 19:17:41.188 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:17:41.188 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:17:41.188 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Ticket] (
+    [Id] int NOT NULL IDENTITY,
+    [userId] int NOT NULL,
+    [Title] nvarchar(150) NOT NULL,
+    [DateTime] datetime2 NOT NULL,
+    [IsFinished] bit NOT NULL,
+    CONSTRAINT [PK_Ticket] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Ticket_User_userId] FOREIGN KEY ([userId]) REFERENCES [User] ([Id]) ON DELETE CASCADE
+);
+2023-02-11 19:17:41.191 +03:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Ticket] (
+    [Id] int NOT NULL IDENTITY,
+    [userId] int NOT NULL,
+    [Title] nvarchar(150) NOT NULL,
+    [DateTime] datetime2 NOT NULL,
+    [IsFinished] bit NOT NULL,
+    CONSTRAINT [PK_Ticket] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Ticket_User_userId] FOREIGN KEY ([userId]) REFERENCES [User] ([Id]) ON DELETE CASCADE
+);
+2023-02-11 19:17:41.191 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 19:17:43.406 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (2215ms).
+2023-02-11 19:17:43.406 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (2215ms).
+2023-02-11 19:17:43.407 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [TicketQuestion] (
+    [id] int NOT NULL IDENTITY,
+    [ticketId] int NOT NULL,
+    [Body] nvarchar(500) NOT NULL,
+    [DateTime] datetime2 NOT NULL,
+    [IsResponded] bit NOT NULL,
+    CONSTRAINT [PK_TicketQuestion] PRIMARY KEY ([id]),
+    CONSTRAINT [FK_TicketQuestion_Ticket_ticketId] FOREIGN KEY ([ticketId]) REFERENCES [Ticket] ([Id]) ON DELETE CASCADE
+);
+2023-02-11 19:17:43.413 +03:30 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [TicketQuestion] (
+    [id] int NOT NULL IDENTITY,
+    [ticketId] int NOT NULL,
+    [Body] nvarchar(500) NOT NULL,
+    [DateTime] datetime2 NOT NULL,
+    [IsResponded] bit NOT NULL,
+    CONSTRAINT [PK_TicketQuestion] PRIMARY KEY ([id]),
+    CONSTRAINT [FK_TicketQuestion_Ticket_ticketId] FOREIGN KEY ([ticketId]) REFERENCES [Ticket] ([Id]) ON DELETE CASCADE
+);
+2023-02-11 19:17:43.414 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 19:17:43.414 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:17:43.414 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:17:43.414 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [TicketAnswer] (
+    [id] int NOT NULL IDENTITY,
+    [adminId] int NOT NULL,
+    [ticketId] int NOT NULL,
+    [questionId] int NULL,
+    [Body] nvarchar(500) NOT NULL,
+    [DateTime] datetime2 NOT NULL,
+    CONSTRAINT [PK_TicketAnswer] PRIMARY KEY ([id]),
+    CONSTRAINT [FK_TicketAnswer_Admin_adminId] FOREIGN KEY ([adminId]) REFERENCES [Admin] ([id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_TicketAnswer_TicketQuestion_questionId] FOREIGN KEY ([questionId]) REFERENCES [TicketQuestion] ([id]),
+    CONSTRAINT [FK_TicketAnswer_Ticket_ticketId] FOREIGN KEY ([ticketId]) REFERENCES [Ticket] ([Id]) ON DELETE CASCADE
+);
+2023-02-11 19:17:43.422 +03:30 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [TicketAnswer] (
+    [id] int NOT NULL IDENTITY,
+    [adminId] int NOT NULL,
+    [ticketId] int NOT NULL,
+    [questionId] int NULL,
+    [Body] nvarchar(500) NOT NULL,
+    [DateTime] datetime2 NOT NULL,
+    CONSTRAINT [PK_TicketAnswer] PRIMARY KEY ([id]),
+    CONSTRAINT [FK_TicketAnswer_Admin_adminId] FOREIGN KEY ([adminId]) REFERENCES [Admin] ([id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_TicketAnswer_TicketQuestion_questionId] FOREIGN KEY ([questionId]) REFERENCES [TicketQuestion] ([id]),
+    CONSTRAINT [FK_TicketAnswer_Ticket_ticketId] FOREIGN KEY ([ticketId]) REFERENCES [Ticket] ([Id]) ON DELETE CASCADE
+);
+2023-02-11 19:17:43.423 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 19:17:43.423 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:17:43.423 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:17:43.423 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'id', N'Email', N'Password') AND [object_id] = OBJECT_ID(N'[Admin]'))
+    SET IDENTITY_INSERT [Admin] ON;
+INSERT INTO [Admin] ([id], [Email], [Password])
+VALUES (1, N'Admin@gmail.com', N'Admin');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'id', N'Email', N'Password') AND [object_id] = OBJECT_ID(N'[Admin]'))
+    SET IDENTITY_INSERT [Admin] OFF;
+2023-02-11 19:17:43.869 +03:30 [INF] Executed DbCommand (446ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'id', N'Email', N'Password') AND [object_id] = OBJECT_ID(N'[Admin]'))
+    SET IDENTITY_INSERT [Admin] ON;
+INSERT INTO [Admin] ([id], [Email], [Password])
+VALUES (1, N'Admin@gmail.com', N'Admin');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'id', N'Email', N'Password') AND [object_id] = OBJECT_ID(N'[Admin]'))
+    SET IDENTITY_INSERT [Admin] OFF;
+2023-02-11 19:17:43.869 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 19:17:46.805 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (2935ms).
+2023-02-11 19:17:46.805 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (2936ms).
+2023-02-11 19:17:46.805 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Email', N'Name', N'Password') AND [object_id] = OBJECT_ID(N'[User]'))
+    SET IDENTITY_INSERT [User] ON;
+INSERT INTO [User] ([Id], [Email], [Name], [Password])
+VALUES (1, N'User1@gmail.com', N'User1', N'User1'),
+(2, N'User2@gmail.com', N'User2', N'User2');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Email', N'Name', N'Password') AND [object_id] = OBJECT_ID(N'[User]'))
+    SET IDENTITY_INSERT [User] OFF;
+2023-02-11 19:17:46.916 +03:30 [INF] Executed DbCommand (111ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Email', N'Name', N'Password') AND [object_id] = OBJECT_ID(N'[User]'))
+    SET IDENTITY_INSERT [User] ON;
+INSERT INTO [User] ([Id], [Email], [Name], [Password])
+VALUES (1, N'User1@gmail.com', N'User1', N'User1'),
+(2, N'User2@gmail.com', N'User2', N'User2');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Email', N'Name', N'Password') AND [object_id] = OBJECT_ID(N'[User]'))
+    SET IDENTITY_INSERT [User] OFF;
+2023-02-11 19:17:46.916 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 19:17:46.916 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:17:46.916 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:17:46.916 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'DateTime', N'IsFinished', N'Title', N'userId') AND [object_id] = OBJECT_ID(N'[Ticket]'))
+    SET IDENTITY_INSERT [Ticket] ON;
+INSERT INTO [Ticket] ([Id], [DateTime], [IsFinished], [Title], [userId])
+VALUES (1, '2023-02-11T19:17:20.3616240+03:30', CAST(0 AS bit), N'رفع باگ', 1),
+(2, '2023-02-11T19:17:20.3616246+03:30', CAST(1 AS bit), N'مدیریت خطا ها', 1);
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'DateTime', N'IsFinished', N'Title', N'userId') AND [object_id] = OBJECT_ID(N'[Ticket]'))
+    SET IDENTITY_INSERT [Ticket] OFF;
+2023-02-11 19:17:46.953 +03:30 [INF] Executed DbCommand (37ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'DateTime', N'IsFinished', N'Title', N'userId') AND [object_id] = OBJECT_ID(N'[Ticket]'))
+    SET IDENTITY_INSERT [Ticket] ON;
+INSERT INTO [Ticket] ([Id], [DateTime], [IsFinished], [Title], [userId])
+VALUES (1, '2023-02-11T19:17:20.3616240+03:30', CAST(0 AS bit), N'رفع باگ', 1),
+(2, '2023-02-11T19:17:20.3616246+03:30', CAST(1 AS bit), N'مدیریت خطا ها', 1);
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'DateTime', N'IsFinished', N'Title', N'userId') AND [object_id] = OBJECT_ID(N'[Ticket]'))
+    SET IDENTITY_INSERT [Ticket] OFF;
+2023-02-11 19:17:46.953 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 19:17:46.953 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:17:46.953 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:17:46.953 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'id', N'Body', N'DateTime', N'IsResponded', N'ticketId') AND [object_id] = OBJECT_ID(N'[TicketQuestion]'))
+    SET IDENTITY_INSERT [TicketQuestion] ON;
+INSERT INTO [TicketQuestion] ([id], [Body], [DateTime], [IsResponded], [ticketId])
+VALUES (1, N'لطفا باگ صفحه ورود را برطرف کنید', '2023-02-11T19:17:20.3616277+03:30', CAST(1 AS bit), 1);
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'id', N'Body', N'DateTime', N'IsResponded', N'ticketId') AND [object_id] = OBJECT_ID(N'[TicketQuestion]'))
+    SET IDENTITY_INSERT [TicketQuestion] OFF;
+2023-02-11 19:17:46.999 +03:30 [INF] Executed DbCommand (46ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'id', N'Body', N'DateTime', N'IsResponded', N'ticketId') AND [object_id] = OBJECT_ID(N'[TicketQuestion]'))
+    SET IDENTITY_INSERT [TicketQuestion] ON;
+INSERT INTO [TicketQuestion] ([id], [Body], [DateTime], [IsResponded], [ticketId])
+VALUES (1, N'لطفا باگ صفحه ورود را برطرف کنید', '2023-02-11T19:17:20.3616277+03:30', CAST(1 AS bit), 1);
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'id', N'Body', N'DateTime', N'IsResponded', N'ticketId') AND [object_id] = OBJECT_ID(N'[TicketQuestion]'))
+    SET IDENTITY_INSERT [TicketQuestion] OFF;
+2023-02-11 19:17:49.271 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 19:17:49.271 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:17:49.271 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:17:49.271 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'id', N'Body', N'DateTime', N'adminId', N'questionId', N'ticketId') AND [object_id] = OBJECT_ID(N'[TicketAnswer]'))
+    SET IDENTITY_INSERT [TicketAnswer] ON;
+INSERT INTO [TicketAnswer] ([id], [Body], [DateTime], [adminId], [questionId], [ticketId])
+VALUES (1, N'در حال بررسی میباشد لطفا صبور باشید', '2023-02-11T19:17:20.3616300+03:30', 1, 1, 1);
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'id', N'Body', N'DateTime', N'adminId', N'questionId', N'ticketId') AND [object_id] = OBJECT_ID(N'[TicketAnswer]'))
+    SET IDENTITY_INSERT [TicketAnswer] OFF;
+2023-02-11 19:17:49.357 +03:30 [INF] Executed DbCommand (86ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'id', N'Body', N'DateTime', N'adminId', N'questionId', N'ticketId') AND [object_id] = OBJECT_ID(N'[TicketAnswer]'))
+    SET IDENTITY_INSERT [TicketAnswer] ON;
+INSERT INTO [TicketAnswer] ([id], [Body], [DateTime], [adminId], [questionId], [ticketId])
+VALUES (1, N'در حال بررسی میباشد لطفا صبور باشید', '2023-02-11T19:17:20.3616300+03:30', 1, 1, 1);
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'id', N'Body', N'DateTime', N'adminId', N'questionId', N'ticketId') AND [object_id] = OBJECT_ID(N'[TicketAnswer]'))
+    SET IDENTITY_INSERT [TicketAnswer] OFF;
+2023-02-11 19:17:49.357 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 19:17:49.357 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:17:49.358 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:17:49.358 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Ticket_userId] ON [Ticket] ([userId]);
+2023-02-11 19:17:49.645 +03:30 [INF] Executed DbCommand (287ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Ticket_userId] ON [Ticket] ([userId]);
+2023-02-11 19:17:49.645 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 19:17:49.645 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:17:49.645 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:17:49.645 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_TicketAnswer_adminId] ON [TicketAnswer] ([adminId]);
+2023-02-11 19:17:49.693 +03:30 [INF] Executed DbCommand (48ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_TicketAnswer_adminId] ON [TicketAnswer] ([adminId]);
+2023-02-11 19:17:49.693 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 19:17:49.693 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:17:49.693 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:17:49.693 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_TicketAnswer_questionId] ON [TicketAnswer] ([questionId]);
+2023-02-11 19:17:49.730 +03:30 [INF] Executed DbCommand (37ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_TicketAnswer_questionId] ON [TicketAnswer] ([questionId]);
+2023-02-11 19:17:49.730 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 19:17:49.730 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:17:50.839 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (1109ms).
+2023-02-11 19:17:50.839 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_TicketAnswer_ticketId] ON [TicketAnswer] ([ticketId]);
+2023-02-11 19:17:50.864 +03:30 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_TicketAnswer_ticketId] ON [TicketAnswer] ([ticketId]);
+2023-02-11 19:17:50.864 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 19:17:50.864 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:17:50.864 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:17:50.864 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_TicketQuestion_ticketId] ON [TicketQuestion] ([ticketId]);
+2023-02-11 19:17:50.891 +03:30 [INF] Executed DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_TicketQuestion_ticketId] ON [TicketQuestion] ([ticketId]);
+2023-02-11 19:17:50.891 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-02-11 19:17:50.891 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:17:50.891 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-02-11 19:17:50.891 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230211154720_init', N'7.0.2');
+2023-02-11 19:17:50.993 +03:30 [INF] Executed DbCommand (102ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230211154720_init', N'7.0.2');
+2023-02-11 19:17:50.997 +03:30 [DBG] Committing transaction.
+2023-02-11 19:17:51.009 +03:30 [DBG] Committed transaction.
+2023-02-11 19:17:51.014 +03:30 [DBG] Disposing transaction.
+2023-02-11 19:17:51.015 +03:30 [DBG] Closing connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:17:51.016 +03:30 [DBG] Closed connection to database 'Ticketing_DB' on server 'ASUS_ROG' (1ms).
+2023-02-11 19:17:51.021 +03:30 [DBG] 'TicketingContext' disposed.
+2023-02-11 19:17:51.023 +03:30 [DBG] Disposing connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-11 19:17:51.023 +03:30 [DBG] Disposed connection to database '' on server '' (0ms).

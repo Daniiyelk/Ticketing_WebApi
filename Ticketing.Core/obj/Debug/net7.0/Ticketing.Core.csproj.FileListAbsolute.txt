@@ -1,0 +1,17 @@
+F:\Visual studio Projects\Ticketing\Ticketing.Core\bin\Debug\net7.0\Ticketing.Core.deps.json
+F:\Visual studio Projects\Ticketing\Ticketing.Core\bin\Debug\net7.0\Ticketing.Core.dll
+F:\Visual studio Projects\Ticketing\Ticketing.Core\bin\Debug\net7.0\Ticketing.Core.pdb
+F:\Visual studio Projects\Ticketing\Ticketing.Core\obj\Debug\net7.0\Ticketing.Core.csproj.AssemblyReference.cache
+F:\Visual studio Projects\Ticketing\Ticketing.Core\obj\Debug\net7.0\Ticketing.Core.GeneratedMSBuildEditorConfig.editorconfig
+F:\Visual studio Projects\Ticketing\Ticketing.Core\obj\Debug\net7.0\Ticketing.Core.AssemblyInfoInputs.cache
+F:\Visual studio Projects\Ticketing\Ticketing.Core\obj\Debug\net7.0\Ticketing.Core.AssemblyInfo.cs
+F:\Visual studio Projects\Ticketing\Ticketing.Core\obj\Debug\net7.0\Ticketing.Core.csproj.CoreCompileInputs.cache
+F:\Visual studio Projects\Ticketing\Ticketing.Core\obj\Debug\net7.0\Ticketing.Core.dll
+F:\Visual studio Projects\Ticketing\Ticketing.Core\obj\Debug\net7.0\refint\Ticketing.Core.dll
+F:\Visual studio Projects\Ticketing\Ticketing.Core\obj\Debug\net7.0\Ticketing.Core.pdb
+F:\Visual studio Projects\Ticketing\Ticketing.Core\obj\Debug\net7.0\ref\Ticketing.Core.dll
+F:\Visual studio Projects\Ticketing\Ticketing.Core\bin\Debug\net7.0\Ticketing.Core.runtimeconfig.json
+F:\Visual studio Projects\Ticketing\Ticketing.Core\obj\Debug\net7.0\Ticketing.Core.genruntimeconfig.cache
+F:\Visual studio Projects\Ticketing\Ticketing.Core\bin\Debug\net7.0\Ticketing.DataLayer.dll
+F:\Visual studio Projects\Ticketing\Ticketing.Core\bin\Debug\net7.0\Ticketing.DataLayer.pdb
+F:\Visual studio Projects\Ticketing\Ticketing.Core\obj\Debug\net7.0\Ticketing.Core.csproj.CopyComplete

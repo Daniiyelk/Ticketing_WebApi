@@ -1,0 +1,14 @@
+F:\Visual studio Projects\Ticketing\Ticketing.DataLayer\bin\Debug\net7.0\Ticketing.DataLayer.deps.json
+F:\Visual studio Projects\Ticketing\Ticketing.DataLayer\bin\Debug\net7.0\Ticketing.DataLayer.dll
+F:\Visual studio Projects\Ticketing\Ticketing.DataLayer\bin\Debug\net7.0\Ticketing.DataLayer.pdb
+F:\Visual studio Projects\Ticketing\Ticketing.DataLayer\obj\Debug\net7.0\Ticketing.DataLayer.csproj.AssemblyReference.cache
+F:\Visual studio Projects\Ticketing\Ticketing.DataLayer\obj\Debug\net7.0\Ticketing.DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+F:\Visual studio Projects\Ticketing\Ticketing.DataLayer\obj\Debug\net7.0\Ticketing.DataLayer.AssemblyInfoInputs.cache
+F:\Visual studio Projects\Ticketing\Ticketing.DataLayer\obj\Debug\net7.0\Ticketing.DataLayer.AssemblyInfo.cs
+F:\Visual studio Projects\Ticketing\Ticketing.DataLayer\obj\Debug\net7.0\Ticketing.DataLayer.csproj.CoreCompileInputs.cache
+F:\Visual studio Projects\Ticketing\Ticketing.DataLayer\obj\Debug\net7.0\Ticketing.DataLayer.dll
+F:\Visual studio Projects\Ticketing\Ticketing.DataLayer\obj\Debug\net7.0\refint\Ticketing.DataLayer.dll
+F:\Visual studio Projects\Ticketing\Ticketing.DataLayer\obj\Debug\net7.0\Ticketing.DataLayer.pdb
+F:\Visual studio Projects\Ticketing\Ticketing.DataLayer\obj\Debug\net7.0\ref\Ticketing.DataLayer.dll
+F:\Visual studio Projects\Ticketing\Ticketing.DataLayer\bin\Debug\net7.0\Ticketing.DataLayer.runtimeconfig.json
+F:\Visual studio Projects\Ticketing\Ticketing.DataLayer\obj\Debug\net7.0\Ticketing.DataLayer.genruntimeconfig.cache

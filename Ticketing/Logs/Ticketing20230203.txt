@@ -1,0 +1,108 @@
+2023-02-03 12:36:27.391 +03:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-02-03 12:36:27.564 +03:30 [DBG] Hosting starting
+2023-02-03 12:36:27.716 +03:30 [DBG] Loaded hosting startup assembly Ticketing.Web
+2023-02-03 12:36:27.716 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-03 12:36:27.717 +03:30 [INF] Hosting environment: Development
+2023-02-03 12:36:27.717 +03:30 [INF] Content root path: F:\Visual studio Projects\Ticketing\Ticketing
+2023-02-03 12:36:27.717 +03:30 [DBG] Hosting started
+2023-02-03 12:36:27.801 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44321/swagger/index.html - -
+2023-02-03 12:36:27.805 +03:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-02-03 12:36:27.841 +03:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-02-03 12:36:27.842 +03:30 [DBG] Request did not match any endpoints
+2023-02-03 12:36:28.047 +03:30 [DBG] Connection ID "18230571292401074179" disconnecting.
+2023-02-03 12:36:28.049 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44321/swagger/index.html - - - 200 - text/html;charset=utf-8 250.4133ms
+2023-02-03 12:36:28.235 +03:30 [DBG] Connection ID "18302628899323904007" disconnecting.
+2023-02-03 12:36:28.236 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44321/swagger/favicon-32x32.png - -
+2023-02-03 12:36:28.236 +03:30 [DBG] No candidates found for the request path '/swagger/favicon-32x32.png'
+2023-02-03 12:36:28.237 +03:30 [DBG] Request did not match any endpoints
+2023-02-03 12:36:28.317 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44321/swagger/v1/swagger.json - -
+2023-02-03 12:36:28.317 +03:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-02-03 12:36:28.317 +03:30 [DBG] Request did not match any endpoints
+2023-02-03 12:36:28.266 +03:30 [DBG] The file transmission was cancelled
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Threading.CancellationToken.ThrowIfCancellationRequested()
+   at Microsoft.AspNetCore.Http.SendFileResponseExtensions.SendFileAsyncCore(HttpResponse response, IFileInfo file, Int64 offset, Nullable`1 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.SendFileResponseExtensions.SendFileAsyncCore(HttpResponse response, IFileInfo file, Int64 offset, Nullable`1 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileContext.SendAsync()
+2023-02-03 12:36:28.335 +03:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-02-03 12:36:28.336 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44321/swagger/favicon-32x32.png - - - 0 628 image/png 99.5873ms
+2023-02-03 12:36:28.544 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44321/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 234.6317ms
+2023-02-03 12:36:28.547 +03:30 [DBG] Connection ID "18374686519131635729" disconnecting.
+2023-02-03 12:37:27.284 +03:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-02-03 12:37:27.386 +03:30 [DBG] Hosting starting
+2023-02-03 12:37:27.488 +03:30 [INF] Now listening on: https://localhost:7064
+2023-02-03 12:37:27.490 +03:30 [INF] Now listening on: http://localhost:5064
+2023-02-03 12:37:27.492 +03:30 [DBG] Loaded hosting startup assembly Ticketing.Web
+2023-02-03 12:37:27.493 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-03 12:37:27.494 +03:30 [INF] Hosting environment: Development
+2023-02-03 12:37:27.495 +03:30 [INF] Content root path: F:\Visual studio Projects\Ticketing\Ticketing
+2023-02-03 12:37:27.496 +03:30 [DBG] Hosting started
+2023-02-03 12:37:27.842 +03:30 [DBG] Connection id "0HMO5OO9B5FPI" received FIN.
+2023-02-03 12:37:27.852 +03:30 [DBG] Connection id "0HMO5OO9B5FPI" accepted.
+2023-02-03 12:37:27.857 +03:30 [DBG] Connection id "0HMO5OO9B5FPI" started.
+2023-02-03 12:37:27.879 +03:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-02-03 12:37:27.907 +03:30 [DBG] Connection id "0HMO5OO9B5FPI" stopped.
+2023-02-03 12:37:27.915 +03:30 [DBG] Connection id "0HMO5OO9B5FPI" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-02-03 12:37:28.023 +03:30 [DBG] Connection id "0HMO5OO9B5FPJ" accepted.
+2023-02-03 12:37:28.025 +03:30 [DBG] Connection id "0HMO5OO9B5FPJ" received FIN.
+2023-02-03 12:37:28.025 +03:30 [DBG] Connection id "0HMO5OO9B5FPJ" started.
+2023-02-03 12:37:28.028 +03:30 [DBG] Connection id "0HMO5OO9B5FPK" accepted.
+2023-02-03 12:37:28.033 +03:30 [DBG] Connection id "0HMO5OO9B5FPK" started.
+2023-02-03 12:37:28.078 +03:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-02-03 12:37:28.084 +03:30 [DBG] Connection id "0HMO5OO9B5FPJ" stopped.
+2023-02-03 12:37:28.090 +03:30 [DBG] Connection id "0HMO5OO9B5FPJ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-02-03 12:37:28.110 +03:30 [DBG] Connection 0HMO5OO9B5FPK established using the following protocol: "Tls13"
+2023-02-03 12:37:28.204 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7064/swagger/index.html - -
+2023-02-03 12:37:28.208 +03:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-02-03 12:37:28.244 +03:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-02-03 12:37:28.248 +03:30 [DBG] Request did not match any endpoints
+2023-02-03 12:37:28.408 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7064/swagger/index.html - - - 200 - text/html;charset=utf-8 206.1194ms
+2023-02-03 12:37:28.451 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7064/swagger/swagger-ui-bundle.js - -
+2023-02-03 12:37:28.451 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7064/swagger/swagger-ui.css - -
+2023-02-03 12:37:28.451 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7064/swagger/swagger-ui-standalone-preset.js - -
+2023-02-03 12:37:28.454 +03:30 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2023-02-03 12:37:28.457 +03:30 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2023-02-03 12:37:28.458 +03:30 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2023-02-03 12:37:28.460 +03:30 [DBG] Request did not match any endpoints
+2023-02-03 12:37:28.464 +03:30 [DBG] Request did not match any endpoints
+2023-02-03 12:37:28.466 +03:30 [DBG] Request did not match any endpoints
+2023-02-03 12:37:28.506 +03:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-02-03 12:37:28.507 +03:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-02-03 12:37:28.511 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7064/swagger/swagger-ui.css - - - 200 144929 text/css 61.0019ms
+2023-02-03 12:37:28.513 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7064/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 63.0449ms
+2023-02-03 12:37:28.525 +03:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-02-03 12:37:28.528 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7064/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 78.0514ms
+2023-02-03 12:37:28.722 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7064/swagger/favicon-32x32.png - -
+2023-02-03 12:37:28.724 +03:30 [DBG] No candidates found for the request path '/swagger/favicon-32x32.png'
+2023-02-03 12:37:28.728 +03:30 [DBG] Request did not match any endpoints
+2023-02-03 12:37:28.732 +03:30 [DBG] The file transmission was cancelled
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Threading.CancellationToken.ThrowIfCancellationRequested()
+   at Microsoft.AspNetCore.Http.SendFileResponseExtensions.SendFileAsyncCore(HttpResponse response, IFileInfo file, Int64 offset, Nullable`1 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.SendFileResponseExtensions.SendFileAsyncCore(HttpResponse response, IFileInfo file, Int64 offset, Nullable`1 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileContext.SendAsync()
+2023-02-03 12:37:28.738 +03:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-02-03 12:37:28.741 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7064/swagger/favicon-32x32.png - - - 0 628 image/png 18.4771ms
+2023-02-03 12:37:28.775 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7064/swagger/v1/swagger.json - -
+2023-02-03 12:37:28.777 +03:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-02-03 12:37:28.780 +03:30 [DBG] Request did not match any endpoints
+2023-02-03 12:37:28.984 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7064/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 208.8306ms
+2023-02-03 12:37:42.539 +03:30 [INF] Application is shutting down...
+2023-02-03 12:37:42.542 +03:30 [DBG] Hosting stopping
+2023-02-03 12:37:42.573 +03:30 [DBG] Connection id "0HMO5OO9B5FPK" is closing.
+2023-02-03 12:37:42.590 +03:30 [DBG] Connection id "0HMO5OO9B5FPK" is closed. The last processed stream ID was 25.
+2023-02-03 12:37:42.595 +03:30 [DBG] Connection id "0HMO5OO9B5FPK" received FIN.
+2023-02-03 12:37:42.596 +03:30 [DBG] The connection queue processing loop for 0HMO5OO9B5FPK completed.
+2023-02-03 12:37:42.599 +03:30 [DBG] Connection id "0HMO5OO9B5FPK" sending FIN because: "The client closed the connection."
+2023-02-03 12:37:42.613 +03:30 [DBG] Connection id "0HMO5OO9B5FPK" stopped.
+2023-02-03 12:37:42.633 +03:30 [DBG] Hosting stopped

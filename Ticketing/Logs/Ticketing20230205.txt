@@ -1,0 +1,258 @@
+2023-02-05 23:57:15.225 +03:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-02-05 23:57:15.310 +03:30 [DBG] Hosting starting
+2023-02-05 23:57:15.353 +03:30 [DBG] Loaded hosting startup assembly Ticketing.Web
+2023-02-05 23:57:15.353 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-05 23:57:15.354 +03:30 [INF] Hosting environment: Development
+2023-02-05 23:57:15.354 +03:30 [INF] Content root path: F:\Visual studio Projects\Ticketing\Ticketing
+2023-02-05 23:57:15.354 +03:30 [DBG] Hosting started
+2023-02-05 23:57:15.371 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44321/swagger/index.html - -
+2023-02-05 23:57:15.375 +03:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-02-05 23:57:15.399 +03:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-02-05 23:57:15.400 +03:30 [DBG] Request did not match any endpoints
+2023-02-05 23:57:15.536 +03:30 [DBG] Connection ID "18374686497656799253" disconnecting.
+2023-02-05 23:57:15.538 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44321/swagger/index.html - - - 200 - text/html;charset=utf-8 168.9577ms
+2023-02-05 23:57:15.757 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44321/swagger/v1/swagger.json - -
+2023-02-05 23:57:15.757 +03:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-02-05 23:57:15.757 +03:30 [DBG] Request did not match any endpoints
+2023-02-05 23:57:15.954 +03:30 [DBG] Connection ID "18374686501951766544" disconnecting.
+2023-02-05 23:57:15.954 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44321/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 197.2184ms
+2023-02-05 23:57:23.741 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44321/Ticket - -
+2023-02-05 23:57:23.745 +03:30 [DBG] 1 candidate(s) found for the request path '/Ticket'
+2023-02-05 23:57:23.748 +03:30 [DBG] Endpoint 'Ticketing.Web.Controllers.TicketController.GetTickets (Ticketing.Web)' with route pattern 'Ticket' is valid for the request path '/Ticket'
+2023-02-05 23:57:23.749 +03:30 [DBG] Request matched endpoint 'Ticketing.Web.Controllers.TicketController.GetTickets (Ticketing.Web)'
+2023-02-05 23:57:23.751 +03:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-02-05 23:57:23.754 +03:30 [INF] Executing endpoint 'Ticketing.Web.Controllers.TicketController.GetTickets (Ticketing.Web)'
+2023-02-05 23:57:23.776 +03:30 [INF] Route matched with {action = "GetTickets", controller = "Ticket"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTickets() on controller Ticketing.Web.Controllers.TicketController (Ticketing.Web).
+2023-02-05 23:57:23.779 +03:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-02-05 23:57:23.779 +03:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-02-05 23:57:23.781 +03:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-02-05 23:57:23.781 +03:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-02-05 23:57:23.781 +03:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-02-05 23:57:23.783 +03:30 [DBG] Executing controller factory for controller Ticketing.Web.Controllers.TicketController (Ticketing.Web)
+2023-02-05 23:57:24.028 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-02-05 23:57:24.171 +03:30 [DBG] Executed controller factory for controller Ticketing.Web.Controllers.TicketController (Ticketing.Web)
+2023-02-05 23:57:25.016 +03:30 [DBG] Entity Framework Core 7.0.2 initialized 'TicketingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.2' with options: None
+2023-02-05 23:57:25.243 +03:30 [DBG] Compiling query expression: 
+'DbSet<Ticket>()'
+2023-02-05 23:57:25.402 +03:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Ticket>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Ticket.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Ticket.IsFinished (bool) Required, 1], [Property: Ticket.Title (string) Required MaxLength(150), 2], [Property: Ticket.userId (int) Required FK Index, 3] }
+        SELECT t.Id, t.IsFinished, t.Title, t.userId
+        FROM Ticket AS t), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Ticket>, 
+    Ticketing.DataLayer.Context.TicketingContext, 
+    False, 
+    False, 
+    True
+)'
+2023-02-05 23:57:25.445 +03:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-02-05 23:57:25.447 +03:30 [DBG] Creating DbConnection.
+2023-02-05 23:57:25.483 +03:30 [DBG] Created DbConnection. (31ms).
+2023-02-05 23:57:25.495 +03:30 [DBG] Created DbCommand for 'ExecuteReader' (48ms).
+2023-02-05 23:57:25.498 +03:30 [DBG] Initialized DbCommand for 'ExecuteReader' (54ms).
+2023-02-05 23:57:25.503 +03:30 [DBG] Opening connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-05 23:57:26.103 +03:30 [DBG] Opened connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-05 23:57:26.112 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[IsFinished], [t].[Title], [t].[userId]
+FROM [Ticket] AS [t]
+2023-02-05 23:57:26.168 +03:30 [INF] Executed DbCommand (57ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[IsFinished], [t].[Title], [t].[userId]
+FROM [Ticket] AS [t]
+2023-02-05 23:57:26.209 +03:30 [DBG] Context 'TicketingContext' started tracking 'Ticket' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-05 23:57:26.232 +03:30 [DBG] Context 'TicketingContext' started tracking 'Ticket' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-05 23:57:26.239 +03:30 [DBG] Closing data reader to 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-05 23:57:26.246 +03:30 [DBG] A data reader for 'Ticketing_DB' on server 'ASUS_ROG' is being disposed after spending 72ms reading results.
+2023-02-05 23:57:26.250 +03:30 [DBG] Closing connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-05 23:57:26.259 +03:30 [DBG] Closed connection to database 'Ticketing_DB' on server 'ASUS_ROG' (8ms).
+2023-02-05 23:57:26.286 +03:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-02-05 23:57:26.288 +03:30 [DBG] No information found on request to perform content negotiation.
+2023-02-05 23:57:26.289 +03:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-02-05 23:57:26.289 +03:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-02-05 23:57:26.290 +03:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-02-05 23:57:26.290 +03:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Ticketing.Core.DTOs.TicketCreationDto, Ticketing.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-02-05 23:57:26.407 +03:30 [INF] Executed action Ticketing.Web.Controllers.TicketController.GetTickets (Ticketing.Web) in 2621.6811ms
+2023-02-05 23:57:26.408 +03:30 [INF] Executed endpoint 'Ticketing.Web.Controllers.TicketController.GetTickets (Ticketing.Web)'
+2023-02-05 23:57:26.411 +03:30 [DBG] Connection ID "18374686514836668436" disconnecting.
+2023-02-05 23:57:26.414 +03:30 [DBG] 'TicketingContext' disposed.
+2023-02-05 23:57:26.418 +03:30 [DBG] Disposing connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-05 23:57:26.420 +03:30 [DBG] Disposed connection to database '' on server '' (1ms).
+2023-02-05 23:57:26.420 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44321/Ticket - - - 200 123 application/json;+charset=utf-8 2679.6901ms
+2023-02-05 23:57:55.604 +03:30 [INF] Application is shutting down...
+2023-02-05 23:57:55.605 +03:30 [DBG] Hosting stopping
+2023-02-05 23:57:55.612 +03:30 [DBG] Hosting stopped
+2023-02-05 23:58:05.834 +03:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-02-05 23:58:05.909 +03:30 [DBG] Hosting starting
+2023-02-05 23:58:05.937 +03:30 [DBG] Loaded hosting startup assembly Ticketing.Web
+2023-02-05 23:58:05.937 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-05 23:58:05.937 +03:30 [INF] Hosting environment: Development
+2023-02-05 23:58:05.937 +03:30 [INF] Content root path: F:\Visual studio Projects\Ticketing\Ticketing
+2023-02-05 23:58:05.938 +03:30 [DBG] Hosting started
+2023-02-05 23:58:05.953 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44321/swagger/index.html - -
+2023-02-05 23:58:05.956 +03:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-02-05 23:58:05.980 +03:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-02-05 23:58:05.981 +03:30 [DBG] Request did not match any endpoints
+2023-02-05 23:58:06.112 +03:30 [DBG] Connection ID "18374686480476930081" disconnecting.
+2023-02-05 23:58:06.114 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44321/swagger/index.html - - - 200 - text/html;charset=utf-8 162.6143ms
+2023-02-05 23:58:06.303 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44321/swagger/v1/swagger.json - -
+2023-02-05 23:58:06.303 +03:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-02-05 23:58:06.304 +03:30 [DBG] Request did not match any endpoints
+2023-02-05 23:58:06.500 +03:30 [DBG] Connection ID "18374686480476930083" disconnecting.
+2023-02-05 23:58:06.501 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44321/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 197.6191ms
+2023-02-05 23:58:10.594 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44321/Ticket - -
+2023-02-05 23:58:10.599 +03:30 [DBG] 1 candidate(s) found for the request path '/Ticket'
+2023-02-05 23:58:10.603 +03:30 [DBG] Endpoint 'Ticketing.Web.Controllers.TicketController.GetTickets (Ticketing.Web)' with route pattern 'Ticket' is valid for the request path '/Ticket'
+2023-02-05 23:58:10.604 +03:30 [DBG] Request matched endpoint 'Ticketing.Web.Controllers.TicketController.GetTickets (Ticketing.Web)'
+2023-02-05 23:58:10.607 +03:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-02-05 23:58:10.610 +03:30 [INF] Executing endpoint 'Ticketing.Web.Controllers.TicketController.GetTickets (Ticketing.Web)'
+2023-02-05 23:58:10.631 +03:30 [INF] Route matched with {action = "GetTickets", controller = "Ticket"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTickets() on controller Ticketing.Web.Controllers.TicketController (Ticketing.Web).
+2023-02-05 23:58:10.635 +03:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-02-05 23:58:10.635 +03:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-02-05 23:58:10.636 +03:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-02-05 23:58:10.636 +03:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-02-05 23:58:10.636 +03:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-02-05 23:58:10.638 +03:30 [DBG] Executing controller factory for controller Ticketing.Web.Controllers.TicketController (Ticketing.Web)
+2023-02-05 23:58:10.753 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-02-05 23:58:10.902 +03:30 [DBG] Executed controller factory for controller Ticketing.Web.Controllers.TicketController (Ticketing.Web)
+2023-02-05 23:58:11.764 +03:30 [DBG] Entity Framework Core 7.0.2 initialized 'TicketingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.2' with options: None
+2023-02-05 23:58:11.806 +03:30 [DBG] Compiling query expression: 
+'DbSet<Ticket>()'
+2023-02-05 23:58:11.968 +03:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Ticket>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Ticket.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Ticket.IsFinished (bool) Required, 1], [Property: Ticket.Title (string) Required MaxLength(150), 2], [Property: Ticket.userId (int) Required FK Index, 3] }
+        SELECT t.Id, t.IsFinished, t.Title, t.userId
+        FROM Ticket AS t), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Ticket>, 
+    Ticketing.DataLayer.Context.TicketingContext, 
+    False, 
+    False, 
+    True
+)'
+2023-02-05 23:58:12.017 +03:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-02-05 23:58:12.019 +03:30 [DBG] Creating DbConnection.
+2023-02-05 23:58:12.047 +03:30 [DBG] Created DbConnection. (23ms).
+2023-02-05 23:58:12.058 +03:30 [DBG] Created DbCommand for 'ExecuteReader' (38ms).
+2023-02-05 23:58:12.060 +03:30 [DBG] Initialized DbCommand for 'ExecuteReader' (45ms).
+2023-02-05 23:58:12.067 +03:30 [DBG] Opening connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-05 23:58:12.260 +03:30 [DBG] Opened connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-05 23:58:12.270 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[IsFinished], [t].[Title], [t].[userId]
+FROM [Ticket] AS [t]
+2023-02-05 23:58:12.319 +03:30 [INF] Executed DbCommand (50ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[IsFinished], [t].[Title], [t].[userId]
+FROM [Ticket] AS [t]
+2023-02-05 23:58:12.358 +03:30 [DBG] Context 'TicketingContext' started tracking 'Ticket' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-05 23:58:12.380 +03:30 [DBG] Context 'TicketingContext' started tracking 'Ticket' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-05 23:58:12.390 +03:30 [DBG] Closing data reader to 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-05 23:58:12.401 +03:30 [DBG] A data reader for 'Ticketing_DB' on server 'ASUS_ROG' is being disposed after spending 73ms reading results.
+2023-02-05 23:58:12.404 +03:30 [DBG] Closing connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-05 23:58:12.414 +03:30 [DBG] Closed connection to database 'Ticketing_DB' on server 'ASUS_ROG' (8ms).
+2023-02-05 23:58:12.421 +03:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-02-05 23:58:12.423 +03:30 [DBG] No information found on request to perform content negotiation.
+2023-02-05 23:58:12.423 +03:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-02-05 23:58:12.423 +03:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-02-05 23:58:12.424 +03:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-02-05 23:58:12.425 +03:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Ticketing.DataLayer.Entities.Ticket.Ticket, Ticketing.DataLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-02-05 23:58:12.539 +03:30 [INF] Executed action Ticketing.Web.Controllers.TicketController.GetTickets (Ticketing.Web) in 1899.4837ms
+2023-02-05 23:58:12.540 +03:30 [INF] Executed endpoint 'Ticketing.Web.Controllers.TicketController.GetTickets (Ticketing.Web)'
+2023-02-05 23:58:12.544 +03:30 [DBG] Connection ID "18374686506246733843" disconnecting.
+2023-02-05 23:58:12.546 +03:30 [DBG] 'TicketingContext' disposed.
+2023-02-05 23:58:12.550 +03:30 [DBG] Disposing connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-05 23:58:12.552 +03:30 [DBG] Disposed connection to database '' on server '' (1ms).
+2023-02-05 23:58:12.552 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44321/Ticket - - - 200 249 application/json;+charset=utf-8 1958.0667ms
+2023-02-05 23:58:20.157 +03:30 [INF] Application is shutting down...
+2023-02-05 23:58:20.161 +03:30 [DBG] Hosting stopping
+2023-02-05 23:58:20.181 +03:30 [DBG] Hosting stopped
+2023-02-05 23:58:30.132 +03:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-02-05 23:58:30.220 +03:30 [DBG] Hosting starting
+2023-02-05 23:58:30.262 +03:30 [DBG] Loaded hosting startup assembly Ticketing.Web
+2023-02-05 23:58:30.262 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-05 23:58:30.263 +03:30 [INF] Hosting environment: Development
+2023-02-05 23:58:30.263 +03:30 [INF] Content root path: F:\Visual studio Projects\Ticketing\Ticketing
+2023-02-05 23:58:30.263 +03:30 [DBG] Hosting started
+2023-02-05 23:58:30.278 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44321/swagger/index.html - -
+2023-02-05 23:58:30.281 +03:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-02-05 23:58:30.303 +03:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-02-05 23:58:30.304 +03:30 [DBG] Request did not match any endpoints
+2023-02-05 23:58:30.432 +03:30 [DBG] Connection ID "18374686497656799255" disconnecting.
+2023-02-05 23:58:30.433 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44321/swagger/index.html - - - 200 - text/html;charset=utf-8 157.5410ms
+2023-02-05 23:58:30.613 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44321/swagger/v1/swagger.json - -
+2023-02-05 23:58:30.614 +03:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-02-05 23:58:30.614 +03:30 [DBG] Request did not match any endpoints
+2023-02-05 23:58:30.778 +03:30 [DBG] Connection ID "18230571300991008786" disconnecting.
+2023-02-05 23:58:30.778 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44321/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 164.6598ms
+2023-02-05 23:58:35.856 +03:30 [INF] Request starting HTTP/2 GET https://localhost:44321/Ticket - -
+2023-02-05 23:58:35.862 +03:30 [DBG] 1 candidate(s) found for the request path '/Ticket'
+2023-02-05 23:58:35.866 +03:30 [DBG] Endpoint 'Ticketing.Web.Controllers.TicketController.GetTickets (Ticketing.Web)' with route pattern 'Ticket' is valid for the request path '/Ticket'
+2023-02-05 23:58:35.866 +03:30 [DBG] Request matched endpoint 'Ticketing.Web.Controllers.TicketController.GetTickets (Ticketing.Web)'
+2023-02-05 23:58:35.869 +03:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-02-05 23:58:35.871 +03:30 [INF] Executing endpoint 'Ticketing.Web.Controllers.TicketController.GetTickets (Ticketing.Web)'
+2023-02-05 23:58:35.889 +03:30 [INF] Route matched with {action = "GetTickets", controller = "Ticket"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTickets() on controller Ticketing.Web.Controllers.TicketController (Ticketing.Web).
+2023-02-05 23:58:35.893 +03:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-02-05 23:58:35.894 +03:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-02-05 23:58:35.895 +03:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-02-05 23:58:35.895 +03:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-02-05 23:58:35.895 +03:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-02-05 23:58:35.897 +03:30 [DBG] Executing controller factory for controller Ticketing.Web.Controllers.TicketController (Ticketing.Web)
+2023-02-05 23:58:36.026 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-02-05 23:58:36.168 +03:30 [DBG] Executed controller factory for controller Ticketing.Web.Controllers.TicketController (Ticketing.Web)
+2023-02-05 23:58:37.011 +03:30 [DBG] Entity Framework Core 7.0.2 initialized 'TicketingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.2' with options: None
+2023-02-05 23:58:37.064 +03:30 [DBG] Compiling query expression: 
+'DbSet<Ticket>()'
+2023-02-05 23:58:37.233 +03:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Ticket>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Ticket.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Ticket.IsFinished (bool) Required, 1], [Property: Ticket.Title (string) Required MaxLength(150), 2], [Property: Ticket.userId (int) Required FK Index, 3] }
+        SELECT t.Id, t.IsFinished, t.Title, t.userId
+        FROM Ticket AS t), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Ticket>, 
+    Ticketing.DataLayer.Context.TicketingContext, 
+    False, 
+    False, 
+    True
+)'
+2023-02-05 23:58:37.276 +03:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-02-05 23:58:37.279 +03:30 [DBG] Creating DbConnection.
+2023-02-05 23:58:37.309 +03:30 [DBG] Created DbConnection. (25ms).
+2023-02-05 23:58:37.319 +03:30 [DBG] Created DbCommand for 'ExecuteReader' (40ms).
+2023-02-05 23:58:37.322 +03:30 [DBG] Initialized DbCommand for 'ExecuteReader' (47ms).
+2023-02-05 23:58:37.328 +03:30 [DBG] Opening connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-05 23:58:37.532 +03:30 [DBG] Opened connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-05 23:58:37.542 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[IsFinished], [t].[Title], [t].[userId]
+FROM [Ticket] AS [t]
+2023-02-05 23:58:37.591 +03:30 [INF] Executed DbCommand (50ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[IsFinished], [t].[Title], [t].[userId]
+FROM [Ticket] AS [t]
+2023-02-05 23:58:37.650 +03:30 [DBG] Context 'TicketingContext' started tracking 'Ticket' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-05 23:58:37.672 +03:30 [DBG] Context 'TicketingContext' started tracking 'Ticket' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-02-05 23:58:37.678 +03:30 [DBG] Closing data reader to 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-05 23:58:37.686 +03:30 [DBG] A data reader for 'Ticketing_DB' on server 'ASUS_ROG' is being disposed after spending 87ms reading results.
+2023-02-05 23:58:37.689 +03:30 [DBG] Closing connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-05 23:58:37.698 +03:30 [DBG] Closed connection to database 'Ticketing_DB' on server 'ASUS_ROG' (8ms).
+2023-02-05 23:58:37.720 +03:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-02-05 23:58:37.722 +03:30 [DBG] No information found on request to perform content negotiation.
+2023-02-05 23:58:37.722 +03:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-02-05 23:58:37.722 +03:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-02-05 23:58:37.723 +03:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-02-05 23:58:37.723 +03:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Ticketing.Core.DTOs.TicketCreationDto, Ticketing.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-02-05 23:58:37.850 +03:30 [INF] Executed action Ticketing.Web.Controllers.TicketController.GetTickets (Ticketing.Web) in 1951.2737ms
+2023-02-05 23:58:37.851 +03:30 [INF] Executed endpoint 'Ticketing.Web.Controllers.TicketController.GetTickets (Ticketing.Web)'
+2023-02-05 23:58:37.855 +03:30 [DBG] Connection ID "18374686501951766546" disconnecting.
+2023-02-05 23:58:37.858 +03:30 [DBG] 'TicketingContext' disposed.
+2023-02-05 23:58:37.863 +03:30 [DBG] Disposing connection to database 'Ticketing_DB' on server 'ASUS_ROG'.
+2023-02-05 23:58:37.864 +03:30 [DBG] Disposed connection to database '' on server '' (1ms).
+2023-02-05 23:58:37.865 +03:30 [INF] Request finished HTTP/2 GET https://localhost:44321/Ticket - - - 200 123 application/json;+charset=utf-8 2008.5155ms
+2023-02-05 23:58:43.646 +03:30 [INF] Application is shutting down...
+2023-02-05 23:58:43.649 +03:30 [DBG] Hosting stopping
+2023-02-05 23:58:43.668 +03:30 [DBG] Hosting stopped

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Ticketing.Web.props" />
+</Project>

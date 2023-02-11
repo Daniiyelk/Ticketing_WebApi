@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "pjoRVHHqYTZc95I1rNszbosqThUm8aVnreJQfVO51Ds=",
+  "Source": "Ticketing.Web",
+  "BasePath": "_content/Ticketing.Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
