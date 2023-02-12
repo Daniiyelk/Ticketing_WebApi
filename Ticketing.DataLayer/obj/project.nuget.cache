@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vkKDY86DcDLD6poKXVMDp9PFaTYrGnm2O/ui49/2O4b8f9PxlufaiUV7QEPEmglFkuPirTnPJEDF3khqc4rsiA==",
+  "dgSpecHash": "/4SZBZQWr0vmRY5MK73SrWI6vnUf+AiBu+PlQ3YsHDyxtg+ckB1au2eS8HIYxf9NIo/gecDeKdzREDRQh+5P8g==",
   "success": true,
-  "projectFilePath": "F:\\Visual studio Projects\\Ticketing\\Ticketing.DataLayer\\Ticketing.DataLayer.csproj",
+  "projectFilePath": "F:\\Programming Projects\\Ticketing\\Ticketing_WebApi\\Ticketing.DataLayer\\Ticketing.DataLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\danii\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\danii\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

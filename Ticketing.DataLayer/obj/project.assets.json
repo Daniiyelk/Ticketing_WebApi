@@ -3528,11 +3528,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Visual studio Projects\\Ticketing\\Ticketing.DataLayer\\Ticketing.DataLayer.csproj",
+      "projectUniqueName": "F:\\Programming Projects\\Ticketing\\Ticketing_WebApi\\Ticketing.DataLayer\\Ticketing.DataLayer.csproj",
       "projectName": "Ticketing.DataLayer",
-      "projectPath": "F:\\Visual studio Projects\\Ticketing\\Ticketing.DataLayer\\Ticketing.DataLayer.csproj",
+      "projectPath": "F:\\Programming Projects\\Ticketing\\Ticketing_WebApi\\Ticketing.DataLayer\\Ticketing.DataLayer.csproj",
       "packagesPath": "C:\\Users\\danii\\.nuget\\packages\\",
-      "outputPath": "F:\\Visual studio Projects\\Ticketing\\Ticketing.DataLayer\\obj\\",
+      "outputPath": "F:\\Programming Projects\\Ticketing\\Ticketing_WebApi\\Ticketing.DataLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\danii\\AppData\\Roaming\\NuGet\\NuGet.Config",

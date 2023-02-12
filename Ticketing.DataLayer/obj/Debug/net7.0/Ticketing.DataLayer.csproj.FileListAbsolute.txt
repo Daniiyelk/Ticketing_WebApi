@@ -12,3 +12,17 @@ F:\Visual studio Projects\Ticketing\Ticketing.DataLayer\obj\Debug\net7.0\Ticketi
 F:\Visual studio Projects\Ticketing\Ticketing.DataLayer\obj\Debug\net7.0\ref\Ticketing.DataLayer.dll
 F:\Visual studio Projects\Ticketing\Ticketing.DataLayer\bin\Debug\net7.0\Ticketing.DataLayer.runtimeconfig.json
 F:\Visual studio Projects\Ticketing\Ticketing.DataLayer\obj\Debug\net7.0\Ticketing.DataLayer.genruntimeconfig.cache
+F:\Programming Projects\Ticketing\Ticketing_WebApi\Ticketing.DataLayer\bin\Debug\net7.0\Ticketing.DataLayer.deps.json
+F:\Programming Projects\Ticketing\Ticketing_WebApi\Ticketing.DataLayer\bin\Debug\net7.0\Ticketing.DataLayer.runtimeconfig.json
+F:\Programming Projects\Ticketing\Ticketing_WebApi\Ticketing.DataLayer\bin\Debug\net7.0\Ticketing.DataLayer.dll
+F:\Programming Projects\Ticketing\Ticketing_WebApi\Ticketing.DataLayer\bin\Debug\net7.0\Ticketing.DataLayer.pdb
+F:\Programming Projects\Ticketing\Ticketing_WebApi\Ticketing.DataLayer\obj\Debug\net7.0\Ticketing.DataLayer.csproj.AssemblyReference.cache
+F:\Programming Projects\Ticketing\Ticketing_WebApi\Ticketing.DataLayer\obj\Debug\net7.0\Ticketing.DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+F:\Programming Projects\Ticketing\Ticketing_WebApi\Ticketing.DataLayer\obj\Debug\net7.0\Ticketing.DataLayer.AssemblyInfoInputs.cache
+F:\Programming Projects\Ticketing\Ticketing_WebApi\Ticketing.DataLayer\obj\Debug\net7.0\Ticketing.DataLayer.AssemblyInfo.cs
+F:\Programming Projects\Ticketing\Ticketing_WebApi\Ticketing.DataLayer\obj\Debug\net7.0\Ticketing.DataLayer.csproj.CoreCompileInputs.cache
+F:\Programming Projects\Ticketing\Ticketing_WebApi\Ticketing.DataLayer\obj\Debug\net7.0\Ticketing.DataLayer.dll
+F:\Programming Projects\Ticketing\Ticketing_WebApi\Ticketing.DataLayer\obj\Debug\net7.0\refint\Ticketing.DataLayer.dll
+F:\Programming Projects\Ticketing\Ticketing_WebApi\Ticketing.DataLayer\obj\Debug\net7.0\Ticketing.DataLayer.pdb
+F:\Programming Projects\Ticketing\Ticketing_WebApi\Ticketing.DataLayer\obj\Debug\net7.0\Ticketing.DataLayer.genruntimeconfig.cache
+F:\Programming Projects\Ticketing\Ticketing_WebApi\Ticketing.DataLayer\obj\Debug\net7.0\ref\Ticketing.DataLayer.dll

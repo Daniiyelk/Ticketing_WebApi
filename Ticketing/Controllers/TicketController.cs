@@ -139,6 +139,8 @@ namespace Ticketing.Web.Controllers
             
             _ticketService.DeleteTicket(ticket);
             
+            //Todo Add Logging
+            
             return NoContent();
         }
 

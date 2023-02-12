@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Ticketing.Core
-build_property.ProjectDir = F:\Visual studio Projects\Ticketing\Ticketing.Core\
+build_property.ProjectDir = F:\Programming Projects\Ticketing\Ticketing_WebApi\Ticketing.Core\

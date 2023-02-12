@@ -61,6 +61,7 @@ builder.Services.AddDbContext<TicketingContext>(options =>
 builder.Services.AddTransient<ITicketService, TicketService>();
 builder.Services.AddTransient<IMailServices, MailServices>();
 builder.Services.AddTransient<IUserServices, UserServices>();
+builder.Services.AddTransient<IAdminServices, AdminServices>();
 
 #endregion
 

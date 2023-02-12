@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jKJ73aQ/iPYGAFKr28gFYVLYwgBRzcYUTdVyTV7dhvH5UFhXhiCf/Lm8K1P3NMYUrUIMbBDkGXi+EJwZ5vHY9A==",
+  "dgSpecHash": "/IvBGSNk7SYh86W6gdtn3iNqz2jbx+iRgPitnTyAv7L4Wqej100ZCFD+nC6EmcC5qsjFmeHuS74extTlax4B4g==",
   "success": true,
-  "projectFilePath": "F:\\Visual studio Projects\\Ticketing\\Ticketing.Core\\Ticketing.Core.csproj",
+  "projectFilePath": "F:\\Programming Projects\\Ticketing\\Ticketing_WebApi\\Ticketing.Core\\Ticketing.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\danii\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\danii\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Visual studio Projects\\Ticketing\\Ticketing\\Ticketing.Web.csproj": {}
+    "F:\\Programming Projects\\Ticketing\\Ticketing_WebApi\\Ticketing\\Ticketing.Web.csproj": {}
   },
   "projects": {
-    "F:\\Visual studio Projects\\Ticketing\\Ticketing.Core\\Ticketing.Core.csproj": {
+    "F:\\Programming Projects\\Ticketing\\Ticketing_WebApi\\Ticketing.Core\\Ticketing.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Visual studio Projects\\Ticketing\\Ticketing.Core\\Ticketing.Core.csproj",
+        "projectUniqueName": "F:\\Programming Projects\\Ticketing\\Ticketing_WebApi\\Ticketing.Core\\Ticketing.Core.csproj",
         "projectName": "Ticketing.Core",
-        "projectPath": "F:\\Visual studio Projects\\Ticketing\\Ticketing.Core\\Ticketing.Core.csproj",
+        "projectPath": "F:\\Programming Projects\\Ticketing\\Ticketing_WebApi\\Ticketing.Core\\Ticketing.Core.csproj",
         "packagesPath": "C:\\Users\\danii\\.nuget\\packages\\",
-        "outputPath": "F:\\Visual studio Projects\\Ticketing\\Ticketing.Core\\obj\\",
+        "outputPath": "F:\\Programming Projects\\Ticketing\\Ticketing_WebApi\\Ticketing.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\danii\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "F:\\Visual studio Projects\\Ticketing\\Ticketing.DataLayer\\Ticketing.DataLayer.csproj": {
-                "projectPath": "F:\\Visual studio Projects\\Ticketing\\Ticketing.DataLayer\\Ticketing.DataLayer.csproj"
+              "F:\\Programming Projects\\Ticketing\\Ticketing_WebApi\\Ticketing.DataLayer\\Ticketing.DataLayer.csproj": {
+                "projectPath": "F:\\Programming Projects\\Ticketing\\Ticketing_WebApi\\Ticketing.DataLayer\\Ticketing.DataLayer.csproj"
               }
             }
           }
@@ -87,14 +87,14 @@
         }
       }
     },
-    "F:\\Visual studio Projects\\Ticketing\\Ticketing.DataLayer\\Ticketing.DataLayer.csproj": {
+    "F:\\Programming Projects\\Ticketing\\Ticketing_WebApi\\Ticketing.DataLayer\\Ticketing.DataLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Visual studio Projects\\Ticketing\\Ticketing.DataLayer\\Ticketing.DataLayer.csproj",
+        "projectUniqueName": "F:\\Programming Projects\\Ticketing\\Ticketing_WebApi\\Ticketing.DataLayer\\Ticketing.DataLayer.csproj",
         "projectName": "Ticketing.DataLayer",
-        "projectPath": "F:\\Visual studio Projects\\Ticketing\\Ticketing.DataLayer\\Ticketing.DataLayer.csproj",
+        "projectPath": "F:\\Programming Projects\\Ticketing\\Ticketing_WebApi\\Ticketing.DataLayer\\Ticketing.DataLayer.csproj",
         "packagesPath": "C:\\Users\\danii\\.nuget\\packages\\",
-        "outputPath": "F:\\Visual studio Projects\\Ticketing\\Ticketing.DataLayer\\obj\\",
+        "outputPath": "F:\\Programming Projects\\Ticketing\\Ticketing_WebApi\\Ticketing.DataLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\danii\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -166,14 +166,14 @@
         }
       }
     },
-    "F:\\Visual studio Projects\\Ticketing\\Ticketing\\Ticketing.Web.csproj": {
+    "F:\\Programming Projects\\Ticketing\\Ticketing_WebApi\\Ticketing\\Ticketing.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Visual studio Projects\\Ticketing\\Ticketing\\Ticketing.Web.csproj",
+        "projectUniqueName": "F:\\Programming Projects\\Ticketing\\Ticketing_WebApi\\Ticketing\\Ticketing.Web.csproj",
         "projectName": "Ticketing.Web",
-        "projectPath": "F:\\Visual studio Projects\\Ticketing\\Ticketing\\Ticketing.Web.csproj",
+        "projectPath": "F:\\Programming Projects\\Ticketing\\Ticketing_WebApi\\Ticketing\\Ticketing.Web.csproj",
         "packagesPath": "C:\\Users\\danii\\.nuget\\packages\\",
-        "outputPath": "F:\\Visual studio Projects\\Ticketing\\Ticketing\\obj\\",
+        "outputPath": "F:\\Programming Projects\\Ticketing\\Ticketing_WebApi\\Ticketing\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\danii\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -190,11 +190,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "F:\\Visual studio Projects\\Ticketing\\Ticketing.Core\\Ticketing.Core.csproj": {
-                "projectPath": "F:\\Visual studio Projects\\Ticketing\\Ticketing.Core\\Ticketing.Core.csproj"
+              "F:\\Programming Projects\\Ticketing\\Ticketing_WebApi\\Ticketing.Core\\Ticketing.Core.csproj": {
+                "projectPath": "F:\\Programming Projects\\Ticketing\\Ticketing_WebApi\\Ticketing.Core\\Ticketing.Core.csproj"
               },
-              "F:\\Visual studio Projects\\Ticketing\\Ticketing.DataLayer\\Ticketing.DataLayer.csproj": {
-                "projectPath": "F:\\Visual studio Projects\\Ticketing\\Ticketing.DataLayer\\Ticketing.DataLayer.csproj"
+              "F:\\Programming Projects\\Ticketing\\Ticketing_WebApi\\Ticketing.DataLayer\\Ticketing.DataLayer.csproj": {
+                "projectPath": "F:\\Programming Projects\\Ticketing\\Ticketing_WebApi\\Ticketing.DataLayer\\Ticketing.DataLayer.csproj"
               }
             }
           }

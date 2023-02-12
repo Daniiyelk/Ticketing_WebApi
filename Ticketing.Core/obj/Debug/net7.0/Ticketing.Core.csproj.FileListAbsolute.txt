@@ -15,3 +15,20 @@ F:\Visual studio Projects\Ticketing\Ticketing.Core\obj\Debug\net7.0\Ticketing.Co
 F:\Visual studio Projects\Ticketing\Ticketing.Core\bin\Debug\net7.0\Ticketing.DataLayer.dll
 F:\Visual studio Projects\Ticketing\Ticketing.Core\bin\Debug\net7.0\Ticketing.DataLayer.pdb
 F:\Visual studio Projects\Ticketing\Ticketing.Core\obj\Debug\net7.0\Ticketing.Core.csproj.CopyComplete
+F:\Programming Projects\Ticketing\Ticketing_WebApi\Ticketing.Core\bin\Debug\net7.0\Ticketing.Core.deps.json
+F:\Programming Projects\Ticketing\Ticketing_WebApi\Ticketing.Core\bin\Debug\net7.0\Ticketing.Core.runtimeconfig.json
+F:\Programming Projects\Ticketing\Ticketing_WebApi\Ticketing.Core\bin\Debug\net7.0\Ticketing.Core.dll
+F:\Programming Projects\Ticketing\Ticketing_WebApi\Ticketing.Core\bin\Debug\net7.0\Ticketing.Core.pdb
+F:\Programming Projects\Ticketing\Ticketing_WebApi\Ticketing.Core\bin\Debug\net7.0\Ticketing.DataLayer.dll
+F:\Programming Projects\Ticketing\Ticketing_WebApi\Ticketing.Core\bin\Debug\net7.0\Ticketing.DataLayer.pdb
+F:\Programming Projects\Ticketing\Ticketing_WebApi\Ticketing.Core\obj\Debug\net7.0\Ticketing.Core.csproj.AssemblyReference.cache
+F:\Programming Projects\Ticketing\Ticketing_WebApi\Ticketing.Core\obj\Debug\net7.0\Ticketing.Core.GeneratedMSBuildEditorConfig.editorconfig
+F:\Programming Projects\Ticketing\Ticketing_WebApi\Ticketing.Core\obj\Debug\net7.0\Ticketing.Core.AssemblyInfoInputs.cache
+F:\Programming Projects\Ticketing\Ticketing_WebApi\Ticketing.Core\obj\Debug\net7.0\Ticketing.Core.AssemblyInfo.cs
+F:\Programming Projects\Ticketing\Ticketing_WebApi\Ticketing.Core\obj\Debug\net7.0\Ticketing.Core.csproj.CoreCompileInputs.cache
+F:\Programming Projects\Ticketing\Ticketing_WebApi\Ticketing.Core\obj\Debug\net7.0\Ticketing.Core.csproj.CopyComplete
+F:\Programming Projects\Ticketing\Ticketing_WebApi\Ticketing.Core\obj\Debug\net7.0\Ticketing.Core.dll
+F:\Programming Projects\Ticketing\Ticketing_WebApi\Ticketing.Core\obj\Debug\net7.0\refint\Ticketing.Core.dll
+F:\Programming Projects\Ticketing\Ticketing_WebApi\Ticketing.Core\obj\Debug\net7.0\Ticketing.Core.pdb
+F:\Programming Projects\Ticketing\Ticketing_WebApi\Ticketing.Core\obj\Debug\net7.0\Ticketing.Core.genruntimeconfig.cache
+F:\Programming Projects\Ticketing\Ticketing_WebApi\Ticketing.Core\obj\Debug\net7.0\ref\Ticketing.Core.dll

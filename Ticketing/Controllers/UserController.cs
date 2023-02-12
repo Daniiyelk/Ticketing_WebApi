@@ -148,6 +148,8 @@ namespace Ticketing.Web.Controllers
 
             await _userServices.DeleteUserAsync(user);
             
+            //Todo Add Logging
+            
             return NoContent();
         }
 
