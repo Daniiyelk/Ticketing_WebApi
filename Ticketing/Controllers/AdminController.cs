@@ -13,11 +13,13 @@ namespace Ticketing.Web.Controllers
     {
         private readonly IAdminServices _adminServices;
         private readonly IMapper _mapper;
+        private readonly ILogger<AdminController> _logger;
 
-        public AdminController(IAdminServices adminServices, IMapper mapper)
+        public AdminController(IAdminServices adminServices, IMapper mapper, ILogger<AdminController> logger)
         {
             _adminServices = adminServices;
             _mapper = mapper;
+            _logger = logger;
         }
 
         #region Get
@@ -143,7 +145,8 @@ namespace Ticketing.Web.Controllers
 
             await _adminServices.DeleteAdmin(admin);
             
-            //Todo Add Logging
+            //Log a warning to know
+            _logger.LogWarning($"admin with id {id} has been deleted");
             
             return NoContent();
         }

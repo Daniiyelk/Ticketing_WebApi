@@ -13,11 +13,14 @@ namespace Ticketing.Web.Controllers
     {
         private readonly IUserServices _userServices;
         private readonly IMapper _mapper;
+        private readonly ILogger<UserController> _logger;
 
-        public UserController(IUserServices userServices, IMapper mapper)
+
+        public UserController(IUserServices userServices, IMapper mapper, ILogger<UserController> logger)
         {
             _userServices = userServices;
             _mapper = mapper;
+            _logger = logger;
         }
 
         #region Get
@@ -148,7 +151,8 @@ namespace Ticketing.Web.Controllers
 
             await _userServices.DeleteUserAsync(user);
             
-            //Todo Add Logging
+            //Log a warning to know
+            _logger.LogWarning($"User with id {id} has been deleted");
             
             return NoContent();
         }

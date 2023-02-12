@@ -14,11 +14,13 @@ namespace Ticketing.Web.Controllers
     {
         private readonly ITicketService _ticketService;
         private readonly IMapper _mapper;
+        private readonly ILogger<TicketController> _logger;
 
-        public TicketController(ITicketService ticketService, IMapper mapper)
+        public TicketController(ITicketService ticketService, IMapper mapper, ILogger<TicketController> logger)
         {
             _ticketService = ticketService;
             _mapper = mapper;
+            _logger = logger;
         }
 
 
@@ -139,7 +141,8 @@ namespace Ticketing.Web.Controllers
             
             _ticketService.DeleteTicket(ticket);
             
-            //Todo Add Logging
+            //Log a warning to know
+            _logger.LogWarning($"Ticket with id {id} has been deleted");
             
             return NoContent();
         }
