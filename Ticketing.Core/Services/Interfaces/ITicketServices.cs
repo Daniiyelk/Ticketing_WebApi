@@ -14,5 +14,6 @@ namespace Ticketing.Core.Services.Interfaces
         public Task<int> AddTicketAsync(Ticket ticket);
         public void UpdateTicket(Ticket ticket);
         public void DeleteTicket(Ticket ticket);
+        public Task<bool> IsExistTicket(int id);
     }
 }

@@ -52,4 +52,9 @@ public class AdminServices : IAdminServices
         _context.Admin.Remove(admin);
         await SaveChangesAsync();
     }
+
+    public async Task<bool> IsExistAdmin(int id)
+    {
+        return await _context.Admin.Where(a => a.id == id).AnyAsync();
+    }
 }

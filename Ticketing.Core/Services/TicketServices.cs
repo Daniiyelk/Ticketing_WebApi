@@ -55,6 +55,11 @@ namespace Ticketing.Core.Services
             _context.Ticket.Remove(ticket);
             _context.SaveChanges();
         }
+
+        public async Task<bool> IsExistTicket(int id)
+        {
+            return await _context.Ticket.Where(t => t.Id == id).AnyAsync();
+        }
     }
 
 }

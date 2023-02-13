@@ -10,4 +10,5 @@ public interface IAdminServices
     public Task UpdateAdmin(Admin admin);
     public Task SaveChangesAsync();
     public Task DeleteAdmin(Admin admin);
+    public Task<bool> IsExistAdmin(int id);
 }

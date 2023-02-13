@@ -9,4 +9,5 @@ public interface IUserServices
     public Task<int> AddUserAsync(User user);
     public Task UpdateUserAsync(User user);
     public Task DeleteUserAsync(User user);
+    public Task<bool> IsExistUser(int id);
 }

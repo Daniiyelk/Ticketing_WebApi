@@ -15,12 +15,14 @@ namespace Ticketing.Web.Controllers
         private readonly ITicketService _ticketService;
         private readonly IMapper _mapper;
         private readonly ILogger<TicketController> _logger;
+        private readonly IUserServices _userServices;
 
-        public TicketController(ITicketService ticketService, IMapper mapper, ILogger<TicketController> logger)
+        public TicketController(ITicketService ticketService, IMapper mapper, ILogger<TicketController> logger, IUserServices userServices)
         {
             _ticketService = ticketService;
             _mapper = mapper;
             _logger = logger;
+            _userServices = userServices;
         }
 
 
@@ -54,6 +56,10 @@ namespace Ticketing.Web.Controllers
             if (!ModelState.IsValid)
                 return BadRequest();
 
+            //Checking is inputUserId exist in database or not !!
+            if (!await _userServices.IsExistUser(inputDto.userId))
+                return BadRequest();
+            
             var ticket = _mapper.Map<Ticket>(inputDto);
 
             var ticketId = await _ticketService.AddTicketAsync(ticket);

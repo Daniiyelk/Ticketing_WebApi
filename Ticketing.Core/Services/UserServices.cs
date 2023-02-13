@@ -49,4 +49,9 @@ public class UserServices : IUserServices
         _context.User.Remove(user);
         await _context.SaveChangesAsync();
     }
+
+    public async Task<bool> IsExistUser(int id)
+    {
+        return await _context.User.Where(u => u.Id == id).AnyAsync();
+    }
 }

@@ -5,6 +5,7 @@ using Serilog;
 using Ticketing.Core.Services;
 using Ticketing.Core.Services.Interfaces;
 using Ticketing.DataLayer.Context;
+using Ticketing.DataLayer.Entities.TicketAnswer;
 using Ticketing.DataLayer.Entities.User;
 
 #region Logging Configuration
@@ -62,6 +63,8 @@ builder.Services.AddTransient<ITicketService, TicketService>();
 builder.Services.AddTransient<IMailServices, MailServices>();
 builder.Services.AddTransient<IUserServices, UserServices>();
 builder.Services.AddTransient<IAdminServices, AdminServices>();
+builder.Services.AddTransient<ITicketQuestionServices, TicketQuestionServices>();
+builder.Services.AddTransient<ITicketAnswerServices, TicketAnswerServices>();
 
 #endregion
 
