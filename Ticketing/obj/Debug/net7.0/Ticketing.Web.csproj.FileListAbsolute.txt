@@ -190,3 +190,6 @@ F:\Programming Projects\Ticketing\Ticketing_WebApi\Ticketing\obj\Debug\net7.0\re
 F:\Programming Projects\Ticketing\Ticketing_WebApi\Ticketing\obj\Debug\net7.0\Ticketing.Web.pdb
 F:\Programming Projects\Ticketing\Ticketing_WebApi\Ticketing\obj\Debug\net7.0\Ticketing.Web.genruntimeconfig.cache
 F:\Programming Projects\Ticketing\Ticketing_WebApi\Ticketing\obj\Debug\net7.0\ref\Ticketing.Web.dll
+F:\Programming Projects\Ticketing\Ticketing_WebApi\Ticketing\bin\Debug\net7.0\MailKit.dll
+F:\Programming Projects\Ticketing\Ticketing_WebApi\Ticketing\bin\Debug\net7.0\MimeKit.dll
+F:\Programming Projects\Ticketing\Ticketing_WebApi\Ticketing\bin\Debug\net7.0\BouncyCastle.Crypto.dll
