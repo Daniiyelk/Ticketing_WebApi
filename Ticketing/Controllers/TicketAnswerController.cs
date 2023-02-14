@@ -74,7 +74,15 @@ namespace Ticketing.Web.Controllers
 
             await _ticketAnswerServices.AddTicketAnswerAsync(ticketAnswer);
             
-            //Todo true the isFinished of ticketQuestion
+            //Get the ticket question to change the is responded Property
+            var ticketQuestion = await _ticketQuestionServices.GetTicketQuestionByIdAsync(ticketAnswerDto.questionId);
+            if (ticketQuestion == null)
+                return BadRequest();
+            
+            ticketQuestion.IsResponded = true;
+
+            //update the ticket question
+            await _ticketQuestionServices.UpdateTicketQuestion(ticketQuestion);
             
             return CreatedAtRoute("GetTicketAnswerById", new { id = ticketAnswer.id }, ticketAnswer);
         }

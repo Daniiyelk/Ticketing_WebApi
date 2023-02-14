@@ -9,4 +9,5 @@ public interface ITicketQuestionServices
     public Task AddTicketQuestionAsync(TicketQuestion ticketQuestion);
     public Task SaveChangesAsync();
     public Task<bool> IsExistTicketQuestion(int id);
+    public Task UpdateTicketQuestion(TicketQuestion ticketQuestion);
 }

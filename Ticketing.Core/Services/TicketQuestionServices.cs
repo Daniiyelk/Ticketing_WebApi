@@ -39,4 +39,10 @@ public class TicketQuestionServices:ITicketQuestionServices
     {
         return await _context.TicketQuestion.Where(t => t.id == id).AnyAsync();
     }
+
+    public async Task UpdateTicketQuestion(TicketQuestion ticketQuestion)
+    {
+        _context.TicketQuestion.Update(ticketQuestion);
+        await SaveChangesAsync();
+    }
 }

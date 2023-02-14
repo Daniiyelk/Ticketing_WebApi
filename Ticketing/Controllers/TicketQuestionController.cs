@@ -69,8 +69,6 @@ namespace Ticketing.Web.Controllers
         }
 
         #endregion
-        
-        //Todo implement the update section because of isFinished property
-        
+
     }
 }
